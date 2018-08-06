@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [RPi_TSOP.PrjPCB]
+   Generated File[RPi_TSOP.GTO]
+   Generated File[RPi_TSOP.GTP]
+   Generated File[RPi_TSOP.GTS]
+   Generated File[RPi_TSOP.GTL]
+   Generated File[RPi_TSOP.GBL]
+   Generated File[RPi_TSOP.GBS]
+   Generated File[RPi_TSOP.GBP]
+   Generated File[RPi_TSOP.GBO]
+   Generated File[RPi_TSOP.GKO]
+   Generated File[RPi_TSOP.GPT]
+   Generated File[RPi_TSOP.GPB]
+   Generated File[RPi_TSOP.EXTREP]
+   Generated File[RPi_TSOP.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 4:31:40 PM On 7/9/2018

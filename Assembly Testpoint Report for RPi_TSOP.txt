@@ -1,0 +1,4 @@
+Net         Name        X Coord     Y Coord     Side        Hole Size   Type        
+GPIO4       Free-4          330mil      200mil  Bottom            0mil  Surface mount
+GPIO3       Free-3          330mil      300mil  Bottom            0mil  Surface mount
+GPIO2       Free-2          330mil      400mil  Bottom            0mil  Surface mount

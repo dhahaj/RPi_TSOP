@@ -1,0 +1,3175 @@
+<?xml version="1.0"?>
+<IPC-2581 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="B" xmlns="http://webstds.ipc.org/2581">
+  <Content roleRef="Owner">
+    <FunctionMode mode="USERDEF" level="1" />
+    <StepRef name="RPi_TSOP" />
+    <LayerRef name="Top Paste" />
+    <LayerRef name="Top Overlay" />
+    <LayerRef name="Top Solder" />
+    <LayerRef name="Top Layer" />
+    <LayerRef name="Dielectric 1" />
+    <LayerRef name="Bottom Layer" />
+    <LayerRef name="Bottom Solder" />
+    <LayerRef name="Bottom Overlay" />
+    <LayerRef name="Bottom Paste" />
+    <LayerRef name="Keep-Out Layer" />
+    <LayerRef name="Mechanical 1" />
+    <LayerRef name="Mechanical 13" />
+    <LayerRef name="Mechanical 15" />
+    <LayerRef name="Mechanical 16" />
+    <LayerRef name="Drill Drawing (Top Layer - Bottom Layer)" />
+    <LayerRef name="Drill Guide (Top Layer - Bottom Layer)" />
+    <BomRef name="BOM" />
+    <DictionaryStandard units="INCH">
+      <EntryStandard id="RECTANGLE_729606X729606">
+        <RectCenter width="0.072961" height="0.072961" />
+      </EntryStandard>
+      <EntryStandard id="RECTANGLE_828032X611496">
+        <RectCenter width="0.082803" height="0.06115" />
+      </EntryStandard>
+      <EntryStandard id="RECTANGLE_433282X583282">
+        <RectCenter width="0.043328" height="0.058328" />
+      </EntryStandard>
+      <EntryStandard id="RECTANGLE_670552X670552">
+        <RectCenter width="0.067055" height="0.067055" />
+      </EntryStandard>
+      <EntryStandard id="CIRCLE_729606">
+        <Circle diameter="0.07296" />
+      </EntryStandard>
+      <EntryStandard id="CIRCLE_649606">
+        <Circle diameter="0.06496" />
+      </EntryStandard>
+      <EntryStandard id="RECTANGLE_649606X649606">
+        <RectCenter width="0.064961" height="0.064961" />
+      </EntryStandard>
+      <EntryStandard id="RECTANGLE_590552X590552">
+        <RectCenter width="0.059055" height="0.059055" />
+      </EntryStandard>
+      <EntryStandard id="CIRCLE_670552">
+        <Circle diameter="0.067056" />
+      </EntryStandard>
+      <EntryStandard id="CIRCLE_590552">
+        <Circle diameter="0.059056" />
+      </EntryStandard>
+      <EntryStandard id="RECTANGLE_748032X531496">
+        <RectCenter width="0.074803" height="0.05315" />
+      </EntryStandard>
+      <EntryStandard id="POLYLINE_1">
+        <Contour>
+          <Polygon>
+            <PolyBegin x="0.01786" y="0.020625" />
+            <PolyStepSegment x="0.016474" y="0.023974" />
+            <PolyStepSegment x="0.013125" y="0.02536" />
+            <PolyStepSegment x="-0.013125" y="0.02536" />
+            <PolyStepSegment x="-0.016474" y="0.023974" />
+            <PolyStepSegment x="-0.01786" y="0.020625" />
+            <PolyStepSegment x="-0.01786" y="-0.020625" />
+            <PolyStepSegment x="-0.016474" y="-0.023974" />
+            <PolyStepSegment x="-0.013125" y="-0.02536" />
+            <PolyStepSegment x="0.013125" y="-0.02536" />
+            <PolyStepSegment x="0.016474" y="-0.023974" />
+            <PolyStepSegment x="0.01786" y="-0.020625" />
+            <PolyStepSegment x="0.01786" y="0.020625" />
+          </Polygon>
+        </Contour>
+      </EntryStandard>
+      <EntryStandard id="POLYLINE_2">
+        <Contour>
+          <Polygon>
+            <PolyBegin x="0.021664" y="0.020625" />
+            <PolyStepSegment x="0.021014" y="0.023893" />
+            <PolyStepSegment x="0.019163" y="0.026663" />
+            <PolyStepSegment x="0.016393" y="0.028514" />
+            <PolyStepSegment x="0.013125" y="0.029164" />
+            <PolyStepSegment x="-0.013125" y="0.029164" />
+            <PolyStepSegment x="-0.016393" y="0.028514" />
+            <PolyStepSegment x="-0.019163" y="0.026663" />
+            <PolyStepSegment x="-0.021014" y="0.023893" />
+            <PolyStepSegment x="-0.021664" y="0.020625" />
+            <PolyStepSegment x="-0.021664" y="-0.020625" />
+            <PolyStepSegment x="-0.021014" y="-0.023893" />
+            <PolyStepSegment x="-0.019163" y="-0.026663" />
+            <PolyStepSegment x="-0.016393" y="-0.028514" />
+            <PolyStepSegment x="-0.013125" y="-0.029164" />
+            <PolyStepSegment x="0.013125" y="-0.029164" />
+            <PolyStepSegment x="0.016393" y="-0.028514" />
+            <PolyStepSegment x="0.019163" y="-0.026663" />
+            <PolyStepSegment x="0.021014" y="-0.023893" />
+            <PolyStepSegment x="0.021664" y="-0.020625" />
+            <PolyStepSegment x="0.021664" y="0.020625" />
+          </Polygon>
+        </Contour>
+      </EntryStandard>
+      <EntryStandard id="POLYLINE_3">
+        <Contour>
+          <Polygon>
+            <PolyBegin x="0.01786" y="0.020625" />
+            <PolyStepSegment x="0.016474" y="0.023974" />
+            <PolyStepSegment x="0.013125" y="0.02536" />
+            <PolyStepSegment x="-0.013125" y="0.02536" />
+            <PolyStepSegment x="-0.016474" y="0.023974" />
+            <PolyStepSegment x="-0.01786" y="0.020625" />
+            <PolyStepSegment x="-0.01786" y="-0.020625" />
+            <PolyStepSegment x="-0.016474" y="-0.023974" />
+            <PolyStepSegment x="-0.013125" y="-0.02536" />
+            <PolyStepSegment x="0.013125" y="-0.02536" />
+            <PolyStepSegment x="0.016474" y="-0.023974" />
+            <PolyStepSegment x="0.01786" y="-0.020625" />
+            <PolyStepSegment x="0.01786" y="0.020625" />
+          </Polygon>
+        </Contour>
+      </EntryStandard>
+      <EntryStandard id="POLYLINE_4">
+        <Contour>
+          <Polygon>
+            <PolyBegin x="0.01786" y="0.020625" />
+            <PolyStepSegment x="0.016474" y="0.023974" />
+            <PolyStepSegment x="0.013125" y="0.02536" />
+            <PolyStepSegment x="-0.013125" y="0.02536" />
+            <PolyStepSegment x="-0.016474" y="0.023974" />
+            <PolyStepSegment x="-0.01786" y="0.020625" />
+            <PolyStepSegment x="-0.01786" y="-0.020625" />
+            <PolyStepSegment x="-0.016474" y="-0.023974" />
+            <PolyStepSegment x="-0.013125" y="-0.02536" />
+            <PolyStepSegment x="0.013125" y="-0.02536" />
+            <PolyStepSegment x="0.016474" y="-0.023974" />
+            <PolyStepSegment x="0.01786" y="-0.020625" />
+            <PolyStepSegment x="0.01786" y="0.020625" />
+          </Polygon>
+        </Contour>
+      </EntryStandard>
+      <EntryStandard id="POLYLINE_5">
+        <Contour>
+          <Polygon>
+            <PolyBegin x="0.021664" y="0.020625" />
+            <PolyStepSegment x="0.021014" y="0.023893" />
+            <PolyStepSegment x="0.019163" y="0.026663" />
+            <PolyStepSegment x="0.016393" y="0.028514" />
+            <PolyStepSegment x="0.013125" y="0.029164" />
+            <PolyStepSegment x="-0.013125" y="0.029164" />
+            <PolyStepSegment x="-0.016393" y="0.028514" />
+            <PolyStepSegment x="-0.019163" y="0.026663" />
+            <PolyStepSegment x="-0.021014" y="0.023893" />
+            <PolyStepSegment x="-0.021664" y="0.020625" />
+            <PolyStepSegment x="-0.021664" y="-0.020625" />
+            <PolyStepSegment x="-0.021014" y="-0.023893" />
+            <PolyStepSegment x="-0.019163" y="-0.026663" />
+            <PolyStepSegment x="-0.016393" y="-0.028514" />
+            <PolyStepSegment x="-0.013125" y="-0.029164" />
+            <PolyStepSegment x="0.013125" y="-0.029164" />
+            <PolyStepSegment x="0.016393" y="-0.028514" />
+            <PolyStepSegment x="0.019163" y="-0.026663" />
+            <PolyStepSegment x="0.021014" y="-0.023893" />
+            <PolyStepSegment x="0.021664" y="-0.020625" />
+            <PolyStepSegment x="0.021664" y="0.020625" />
+          </Polygon>
+        </Contour>
+      </EntryStandard>
+      <EntryStandard id="POLYLINE_6">
+        <Contour>
+          <Polygon>
+            <PolyBegin x="0.01786" y="0.020625" />
+            <PolyStepSegment x="0.016474" y="0.023974" />
+            <PolyStepSegment x="0.013125" y="0.02536" />
+            <PolyStepSegment x="-0.013125" y="0.02536" />
+            <PolyStepSegment x="-0.016474" y="0.023974" />
+            <PolyStepSegment x="-0.01786" y="0.020625" />
+            <PolyStepSegment x="-0.01786" y="-0.020625" />
+            <PolyStepSegment x="-0.016474" y="-0.023974" />
+            <PolyStepSegment x="-0.013125" y="-0.02536" />
+            <PolyStepSegment x="0.013125" y="-0.02536" />
+            <PolyStepSegment x="0.016474" y="-0.023974" />
+            <PolyStepSegment x="0.01786" y="-0.020625" />
+            <PolyStepSegment x="0.01786" y="0.020625" />
+          </Polygon>
+        </Contour>
+      </EntryStandard>
+      <EntryStandard id="RECTANGLE_750000X550000">
+        <RectCenter width="0.075" height="0.055" />
+      </EntryStandard>
+      <EntryStandard id="RECTANGLE_830000X630000">
+        <RectCenter width="0.083" height="0.063" />
+      </EntryStandard>
+    </DictionaryStandard>
+    <DictionaryColor>
+      <EntryColor id="LAYER_COLOR_Top Paste">
+        <Color r="128" g="128" b="128" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Top Overlay">
+        <Color r="255" g="255" b="0" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Top Solder">
+        <Color r="128" g="0" b="128" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Top Layer">
+        <Color r="255" g="0" b="0" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Dielectric 1">
+        <Color r="255" g="0" b="0" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Bottom Layer">
+        <Color r="0" g="0" b="255" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Bottom Solder">
+        <Color r="255" g="0" b="255" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Bottom Overlay">
+        <Color r="128" g="128" b="0" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Bottom Paste">
+        <Color r="128" g="0" b="0" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Keep-Out Layer">
+        <Color r="255" g="0" b="255" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Mechanical 1">
+        <Color r="255" g="0" b="255" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Mechanical 13">
+        <Color r="0" g="191" b="0" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Mechanical 15">
+        <Color r="67" g="255" b="67" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Mechanical 16">
+        <Color r="0" g="76" b="98" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Drill Drawing (Top Layer - Bottom Layer)">
+        <Color r="196" g="0" b="0" />
+      </EntryColor>
+      <EntryColor id="LAYER_COLOR_Drill Guide (Top Layer - Bottom Layer)">
+        <Color r="128" g="0" b="0" />
+      </EntryColor>
+    </DictionaryColor>
+  </Content>
+  <LogisticHeader>
+    <Role id="Owner" roleFunction="ENGINEER" />
+    <Enterprise id="Enterprise" code="UNKNOWN" />
+    <Person name="Unknown" enterpriseRef="Enterprise" roleRef="Owner" />
+  </LogisticHeader>
+  <Bom name="BOM">
+    <BomHeader assembly="Assembly" revision="Revision">
+      <StepRef name="RPi_TSOP" />
+    </BomHeader>
+    <BomItem OEMDesignNumberRef="Vault:VISH-TSOP38238" quantity="1" pinCount="3" category="ELECTRICAL" internalPartNumber="VISH-TSOP38238" description="IR Receiver Modules for Remote Control System, 2.5 to 5.5 V, -25 to 85 degC, 3-Pin">
+      <RefDes name="RPi_TSOP_U1" packageRef="VISH-TSOP38238" layerRef="Top Layer" />
+      <Characteristics category="ELECTRICAL" />
+    </BomItem>
+    <BomItem OEMDesignNumberRef="105848_revD3.IntLib:RESC1206(3216)_M" quantity="1" pinCount="2" category="ELECTRICAL" internalPartNumber="RESC1206(3216)_M" description="RESISTOR, SMD, 1206">
+      <RefDes name="RPi_TSOP_R1" packageRef="RESC1206(3216)_M" layerRef="Top Layer" />
+      <Characteristics category="ELECTRICAL" />
+    </BomItem>
+    <BomItem OEMDesignNumberRef="105848_revD3.IntLib:LED-0805" quantity="1" pinCount="2" category="ELECTRICAL" internalPartNumber="LED-0805" description="5V Power Indicator">
+      <RefDes name="RPi_TSOP_LED1" packageRef="LED-0805" layerRef="Top Layer" />
+      <Characteristics category="ELECTRICAL" />
+    </BomItem>
+    <BomItem OEMDesignNumberRef="Miscellaneous Connectors.IntLib:HDR1X5" quantity="1" pinCount="5" category="ELECTRICAL" internalPartNumber="HDR1X5" description="Header, 5-Pin / Connector; Header; 5 Position">
+      <RefDes name="RPi_TSOP_J1" packageRef="HDR1X5" layerRef="Top Layer" />
+      <Characteristics category="ELECTRICAL" />
+    </BomItem>
+  </Bom>
+  <Ecad name="output PCB cad-data">
+    <CadHeader units="INCH">
+      <Spec name="Top Paste">
+        <General type="MATERIAL" />
+      </Spec>
+      <Spec name="Top Overlay">
+        <General type="MATERIAL" />
+      </Spec>
+      <Spec name="Top Solder">
+        <General type="MATERIAL">
+          <Property text="Solder Resist" />
+        </General>
+      </Spec>
+      <Spec name="Top Layer">
+        <General type="MATERIAL">
+          <Property text="Copper" />
+        </General>
+      </Spec>
+      <Spec name="Dielectric 1">
+        <General type="MATERIAL">
+          <Property text="FR-4" />
+        </General>
+      </Spec>
+      <Spec name="Bottom Layer">
+        <General type="MATERIAL">
+          <Property text="Copper" />
+        </General>
+      </Spec>
+      <Spec name="Bottom Solder">
+        <General type="MATERIAL">
+          <Property text="Solder Resist" />
+        </General>
+      </Spec>
+      <Spec name="Bottom Overlay">
+        <General type="MATERIAL" />
+      </Spec>
+      <Spec name="Bottom Paste">
+        <General type="MATERIAL" />
+      </Spec>
+      <Spec name="Keep-Out Layer">
+        <General type="MATERIAL" />
+      </Spec>
+      <Spec name="Mechanical 1">
+        <General type="MATERIAL" />
+      </Spec>
+      <Spec name="Mechanical 13">
+        <General type="MATERIAL" />
+      </Spec>
+      <Spec name="Mechanical 15">
+        <General type="MATERIAL" />
+      </Spec>
+      <Spec name="Mechanical 16">
+        <General type="MATERIAL" />
+      </Spec>
+      <Spec name="Drill Drawing (Top Layer - Bottom Layer)">
+        <General type="MATERIAL">
+          <Property text="undefined" />
+        </General>
+      </Spec>
+      <Spec name="Drill Guide (Top Layer - Bottom Layer)">
+        <General type="MATERIAL">
+          <Property text="undefined" />
+        </General>
+      </Spec>
+    </CadHeader>
+    <CadData>
+      <Layer name="Top Paste" layerFunction="PASTEMASK" side="TOP" polarity="POSITIVE" />
+      <Layer name="Top Overlay" layerFunction="LEGEND" side="TOP" polarity="POSITIVE" />
+      <Layer name="Top Solder" layerFunction="SOLDERMASK" side="TOP" polarity="POSITIVE" />
+      <Layer name="Top Layer" layerFunction="SIGNAL" side="TOP" polarity="POSITIVE" />
+      <Layer name="Dielectric 1" layerFunction="DIELCORE" side="NONE" polarity="POSITIVE" />
+      <Layer name="Bottom Layer" layerFunction="SIGNAL" side="BOTTOM" polarity="POSITIVE" />
+      <Layer name="Bottom Solder" layerFunction="SOLDERMASK" side="BOTTOM" polarity="POSITIVE" />
+      <Layer name="Bottom Overlay" layerFunction="LEGEND" side="BOTTOM" polarity="POSITIVE" />
+      <Layer name="Bottom Paste" layerFunction="PASTEMASK" side="BOTTOM" polarity="POSITIVE" />
+      <Layer name="Keep-Out Layer" layerFunction="DOCUMENT" side="INTERNAL" polarity="POSITIVE" />
+      <Layer name="Mechanical 1" layerFunction="DOCUMENT" side="INTERNAL" polarity="POSITIVE" />
+      <Layer name="Mechanical 13" layerFunction="DOCUMENT" side="INTERNAL" polarity="POSITIVE" />
+      <Layer name="Mechanical 15" layerFunction="DOCUMENT" side="INTERNAL" polarity="POSITIVE" />
+      <Layer name="Mechanical 16" layerFunction="DOCUMENT" side="INTERNAL" polarity="POSITIVE" />
+      <Layer name="Drill Drawing (Top Layer - Bottom Layer)" layerFunction="DOCUMENT" side="INTERNAL" polarity="POSITIVE" />
+      <Layer name="Drill Guide (Top Layer - Bottom Layer)" layerFunction="DRILL" side="INTERNAL" polarity="POSITIVE" />
+      <Stackup name="Stackup" overallThickness="0.0162" tolPlus="0" tolMinus="0" whereMeasured="OTHER">
+        <StackupGroup name="RPi_TSOP_AllStackupLayers" thickness="0.0162" tolPlus="0" tolMinus="0">
+          <StackupLayer layerOrGroupRef="Top Paste" thickness="0" tolPlus="0" tolMinus="0" sequence="1">
+            <SpecRef id="Top Paste" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Top Overlay" thickness="0" tolPlus="0" tolMinus="0" sequence="2">
+            <SpecRef id="Top Overlay" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Top Solder" thickness="0.0004" tolPlus="0" tolMinus="0" sequence="3">
+            <SpecRef id="Top Solder" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Top Layer" thickness="0.0014" tolPlus="0" tolMinus="0" sequence="4">
+            <SpecRef id="Top Layer" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Dielectric 1" thickness="0.0126" tolPlus="0" tolMinus="0" sequence="5">
+            <SpecRef id="Dielectric 1" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Bottom Layer" thickness="0.0014" tolPlus="0" tolMinus="0" sequence="6">
+            <SpecRef id="Bottom Layer" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Bottom Solder" thickness="0.0004" tolPlus="0" tolMinus="0" sequence="7">
+            <SpecRef id="Bottom Solder" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Bottom Overlay" thickness="0" tolPlus="0" tolMinus="0" sequence="8">
+            <SpecRef id="Bottom Overlay" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Bottom Paste" thickness="0" tolPlus="0" tolMinus="0" sequence="9">
+            <SpecRef id="Bottom Paste" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Keep-Out Layer" thickness="0" tolPlus="0" tolMinus="0" sequence="10">
+            <SpecRef id="Keep-Out Layer" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Mechanical 1" thickness="0" tolPlus="0" tolMinus="0" sequence="11">
+            <SpecRef id="Mechanical 1" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Mechanical 13" thickness="0" tolPlus="0" tolMinus="0" sequence="12">
+            <SpecRef id="Mechanical 13" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Mechanical 15" thickness="0" tolPlus="0" tolMinus="0" sequence="13">
+            <SpecRef id="Mechanical 15" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Mechanical 16" thickness="0" tolPlus="0" tolMinus="0" sequence="14">
+            <SpecRef id="Mechanical 16" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Drill Drawing (Top Layer - Bottom Layer)" thickness="0" tolPlus="0" tolMinus="0" sequence="15">
+            <SpecRef id="Drill Drawing (Top Layer - Bottom Layer)" />
+          </StackupLayer>
+          <StackupLayer layerOrGroupRef="Drill Guide (Top Layer - Bottom Layer)" thickness="0" tolPlus="0" tolMinus="0" sequence="16">
+            <SpecRef id="Drill Guide (Top Layer - Bottom Layer)" />
+          </StackupLayer>
+        </StackupGroup>
+      </Stackup>
+      <Step name="RPi_TSOP">
+        <Datum x="3.865" y="4.05" />
+        <Profile>
+          <Polygon>
+            <PolyBegin x="3.865" y="4.05" />
+            <PolyStepSegment x="4.365" y="4.05" />
+            <PolyStepSegment x="4.365" y="4.65" />
+            <PolyStepSegment x="3.865" y="4.65" />
+            <PolyStepSegment x="3.865" y="4.05" />
+          </Polygon>
+        </Profile>
+        <PadStack net="3V3">
+          <LayerPad layerRef="Top Solder">
+            <Xform />
+            <Location x="3.935" y="4.45" />
+            <StandardPrimitiveRef id="CIRCLE_729606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="3" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform />
+            <Location x="3.935" y="4.45" />
+            <StandardPrimitiveRef id="CIRCLE_649606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="3" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Layer">
+            <Xform />
+            <Location x="3.935" y="4.45" />
+            <StandardPrimitiveRef id="CIRCLE_649606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="3" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform />
+            <Location x="3.935" y="4.45" />
+            <StandardPrimitiveRef id="CIRCLE_729606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="3" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="GND">
+          <LayerPad layerRef="Top Solder">
+            <Xform />
+            <Location x="3.935" y="4.35" />
+            <StandardPrimitiveRef id="CIRCLE_729606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="2" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform />
+            <Location x="3.935" y="4.35" />
+            <StandardPrimitiveRef id="CIRCLE_649606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="2" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Layer">
+            <Xform />
+            <Location x="3.935" y="4.35" />
+            <StandardPrimitiveRef id="CIRCLE_649606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="2" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform />
+            <Location x="3.935" y="4.35" />
+            <StandardPrimitiveRef id="CIRCLE_729606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="2" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="Net_U1">
+          <LayerPad layerRef="Top Solder">
+            <Xform />
+            <Location x="3.935" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_729606X729606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="1" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform />
+            <Location x="3.935" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_649606X649606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="1" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Layer">
+            <Xform />
+            <Location x="3.935" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_649606X649606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="1" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform />
+            <Location x="3.935" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_729606X729606" />
+            <PinRef componentRef="RPi_TSOP_U1" pin="1" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="3V3">
+          <LayerPad layerRef="Top Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.55" />
+            <StandardPrimitiveRef id="RECTANGLE_670552X670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="1" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.55" />
+            <StandardPrimitiveRef id="RECTANGLE_590552X590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="1" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.55" />
+            <StandardPrimitiveRef id="RECTANGLE_590552X590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="1" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.55" />
+            <StandardPrimitiveRef id="RECTANGLE_670552X670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="1" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="GPIO2">
+          <LayerPad layerRef="Top Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.45" />
+            <StandardPrimitiveRef id="CIRCLE_670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="2" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.45" />
+            <StandardPrimitiveRef id="CIRCLE_590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="2" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.45" />
+            <StandardPrimitiveRef id="CIRCLE_590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="2" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.45" />
+            <StandardPrimitiveRef id="CIRCLE_670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="2" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="GPIO3">
+          <LayerPad layerRef="Top Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.35" />
+            <StandardPrimitiveRef id="CIRCLE_670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="3" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.35" />
+            <StandardPrimitiveRef id="CIRCLE_590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="3" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.35" />
+            <StandardPrimitiveRef id="CIRCLE_590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="3" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.35" />
+            <StandardPrimitiveRef id="CIRCLE_670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="3" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="GPIO4">
+          <LayerPad layerRef="Top Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.25" />
+            <StandardPrimitiveRef id="CIRCLE_670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="4" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.25" />
+            <StandardPrimitiveRef id="CIRCLE_590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="4" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.25" />
+            <StandardPrimitiveRef id="CIRCLE_590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="4" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.25" />
+            <StandardPrimitiveRef id="CIRCLE_670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="4" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="GND">
+          <LayerPad layerRef="Top Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.15" />
+            <StandardPrimitiveRef id="CIRCLE_670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="5" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.15" />
+            <StandardPrimitiveRef id="CIRCLE_590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="5" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Layer">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.15" />
+            <StandardPrimitiveRef id="CIRCLE_590552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="5" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform rotation="270" />
+            <Location x="4.3" y="4.15" />
+            <StandardPrimitiveRef id="CIRCLE_670552" />
+            <PinRef componentRef="RPi_TSOP_J1" pin="5" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="GND">
+          <LayerPad layerRef="Top Paste">
+            <Xform rotation="270" />
+            <Location x="3.913976" y="4.118976" />
+            <StandardPrimitiveRef id="RECTANGLE_748032X531496" />
+            <PinRef componentRef="RPi_TSOP_R1" pin="2" />
+          </LayerPad>
+          <LayerPad layerRef="Top Solder">
+            <Xform rotation="270" />
+            <Location x="3.913976" y="4.118976" />
+            <StandardPrimitiveRef id="RECTANGLE_828032X611496" />
+            <PinRef componentRef="RPi_TSOP_R1" pin="2" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform rotation="270" />
+            <Location x="3.913976" y="4.118976" />
+            <StandardPrimitiveRef id="RECTANGLE_748032X531496" />
+            <PinRef componentRef="RPi_TSOP_R1" pin="2" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="NetLED1_-">
+          <LayerPad layerRef="Top Paste">
+            <Xform rotation="270" />
+            <Location x="4.036024" y="4.118976" />
+            <StandardPrimitiveRef id="RECTANGLE_748032X531496" />
+            <PinRef componentRef="RPi_TSOP_R1" pin="1" />
+          </LayerPad>
+          <LayerPad layerRef="Top Solder">
+            <Xform rotation="270" />
+            <Location x="4.036024" y="4.118976" />
+            <StandardPrimitiveRef id="RECTANGLE_828032X611496" />
+            <PinRef componentRef="RPi_TSOP_R1" pin="1" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform rotation="270" />
+            <Location x="4.036024" y="4.118976" />
+            <StandardPrimitiveRef id="RECTANGLE_748032X531496" />
+            <PinRef componentRef="RPi_TSOP_R1" pin="1" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="3V3">
+          <LayerPad layerRef="Top Paste">
+            <Xform rotation="270" />
+            <Location x="3.915" y="4.605" />
+            <StandardPrimitiveRef id="POLYLINE_1" />
+            <PinRef componentRef="RPi_TSOP_LED1" pin="+" />
+          </LayerPad>
+          <LayerPad layerRef="Top Solder">
+            <Xform rotation="270" />
+            <Location x="3.915" y="4.605" />
+            <StandardPrimitiveRef id="POLYLINE_2" />
+            <PinRef componentRef="RPi_TSOP_LED1" pin="+" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform rotation="270" />
+            <Location x="3.915" y="4.605" />
+            <StandardPrimitiveRef id="POLYLINE_3" />
+            <PinRef componentRef="RPi_TSOP_LED1" pin="+" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="NetLED1_-">
+          <LayerPad layerRef="Top Paste">
+            <Xform rotation="270" />
+            <Location x="3.915" y="4.535" />
+            <StandardPrimitiveRef id="POLYLINE_4" />
+            <PinRef componentRef="RPi_TSOP_LED1" pin="-" />
+          </LayerPad>
+          <LayerPad layerRef="Top Solder">
+            <Xform rotation="270" />
+            <Location x="3.915" y="4.535" />
+            <StandardPrimitiveRef id="POLYLINE_5" />
+            <PinRef componentRef="RPi_TSOP_LED1" pin="-" />
+          </LayerPad>
+          <LayerPad layerRef="Top Layer">
+            <Xform rotation="270" />
+            <Location x="3.915" y="4.535" />
+            <StandardPrimitiveRef id="POLYLINE_6" />
+            <PinRef componentRef="RPi_TSOP_LED1" pin="-" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="Net_U1">
+          <LayerPad layerRef="Bottom Layer">
+            <Xform />
+            <Location x="4.105" y="4.45" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform />
+            <Location x="4.105" y="4.45" />
+            <StandardPrimitiveRef id="RECTANGLE_830000X630000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Paste">
+            <Xform />
+            <Location x="4.105" y="4.45" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="Net_U1">
+          <LayerPad layerRef="Bottom Layer">
+            <Xform />
+            <Location x="4.105" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform />
+            <Location x="4.105" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_830000X630000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Paste">
+            <Xform />
+            <Location x="4.105" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="Net_U1">
+          <LayerPad layerRef="Bottom Layer">
+            <Xform />
+            <Location x="4.105" y="4.35" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform />
+            <Location x="4.105" y="4.35" />
+            <StandardPrimitiveRef id="RECTANGLE_830000X630000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Paste">
+            <Xform />
+            <Location x="4.105" y="4.35" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="GPIO4">
+          <LayerPad layerRef="Bottom Layer">
+            <Xform />
+            <Location x="4.195" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform />
+            <Location x="4.195" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_830000X630000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Paste">
+            <Xform />
+            <Location x="4.195" y="4.25" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="GPIO3">
+          <LayerPad layerRef="Bottom Layer">
+            <Xform />
+            <Location x="4.195" y="4.35" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform />
+            <Location x="4.195" y="4.35" />
+            <StandardPrimitiveRef id="RECTANGLE_830000X630000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Paste">
+            <Xform />
+            <Location x="4.195" y="4.35" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+        </PadStack>
+        <PadStack net="GPIO2">
+          <LayerPad layerRef="Bottom Layer">
+            <Xform />
+            <Location x="4.195" y="4.45" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Solder">
+            <Xform />
+            <Location x="4.195" y="4.45" />
+            <StandardPrimitiveRef id="RECTANGLE_830000X630000" />
+          </LayerPad>
+          <LayerPad layerRef="Bottom Paste">
+            <Xform />
+            <Location x="4.195" y="4.45" />
+            <StandardPrimitiveRef id="RECTANGLE_750000X550000" />
+          </LayerPad>
+        </PadStack>
+        <Package name="VISH-TSOP38238" type="OTHER" pinOneOrientation="LOWER_LEFT" height="0.336614">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="-0.11378" y="-0.133862" />
+              <PolyStepSegment x="-0.11378" y="0.055118" />
+              <PolyStepSegment x="0.113786" y="0.055118" />
+              <PolyStepSegment x="0.113786" y="-0.133862" />
+              <PolyStepSegment x="-0.11378" y="-0.133862" />
+            </Polygon>
+            <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID" />
+          </Outline>
+          <Pin number="1" name="1" type="THRU" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="-0.1" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_729606X729606" />
+          </Pin>
+          <Pin number="2" name="2" type="THRU" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="0" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_729606X729606" />
+          </Pin>
+          <Pin number="3" name="3" type="THRU" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="0.1" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_729606X729606" />
+          </Pin>
+        </Package>
+        <Package name="RESC1206(3216)_M" type="OTHER" pinOneOrientation="LOWER_LEFT" height="0.029528">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="-0.065922" y="-0.034426" />
+              <PolyStepSegment x="-0.065922" y="0.034432" />
+              <PolyStepSegment x="0.065928" y="0.034432" />
+              <PolyStepSegment x="0.065928" y="-0.034426" />
+              <PolyStepSegment x="-0.065922" y="-0.034426" />
+            </Polygon>
+            <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID" />
+          </Outline>
+          <Pin number="1" name="1" type="SURFACE" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="-0.061024" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_828032X611496" />
+          </Pin>
+          <Pin number="2" name="2" type="SURFACE" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="0.061024" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_828032X611496" />
+          </Pin>
+        </Package>
+        <Package name="LED-0805" type="OTHER" pinOneOrientation="LOWER_LEFT" height="0.027559">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="-0.0625" y="-0.035" />
+              <PolyStepSegment x="-0.0625" y="0.035" />
+              <PolyStepSegment x="0.063" y="0.035" />
+              <PolyStepSegment x="0.063" y="-0.035" />
+              <PolyStepSegment x="-0.0625" y="-0.035" />
+            </Polygon>
+            <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID" />
+          </Outline>
+          <Pin number="-" name="-" type="SURFACE" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="0.035" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_433282X583282" />
+          </Pin>
+          <Pin number="+" name="+" type="SURFACE" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="-0.035" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_433282X583282" />
+          </Pin>
+        </Package>
+        <Package name="HDR1X5" type="OTHER" pinOneOrientation="LOWER_LEFT" height="0.027559">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="-0.05" y="-0.05" />
+              <PolyStepSegment x="-0.05" y="0.05" />
+              <PolyStepSegment x="0.45" y="0.05" />
+              <PolyStepSegment x="0.45" y="-0.05" />
+              <PolyStepSegment x="-0.05" y="-0.05" />
+            </Polygon>
+            <LineDesc lineEnd="NONE" lineWidth="0" lineProperty="SOLID" />
+          </Outline>
+          <Pin number="5" name="5" type="THRU" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="0.4" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_670552X670552" />
+          </Pin>
+          <Pin number="4" name="4" type="THRU" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="0.3" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_670552X670552" />
+          </Pin>
+          <Pin number="3" name="3" type="THRU" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="0.2" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_670552X670552" />
+          </Pin>
+          <Pin number="2" name="2" type="THRU" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="0.1" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_670552X670552" />
+          </Pin>
+          <Pin number="1" name="1" type="THRU" electricalType="ELECTRICAL" mountType="SURFACE_MOUNT_PIN">
+            <Location x="0" y="0" />
+            <StandardPrimitiveRef id="RECTANGLE_670552X670552" />
+          </Pin>
+        </Package>
+        <Component refDes="RPi_TSOP_U1" packageRef="VISH-TSOP38238" part="VISH-TSOP38238" layerRef="Top Layer" mountType="OTHER" weight="0" height="0.336614" standoff="-0.898937">
+          <Xform rotation="90" />
+          <Location x="3.935" y="4.35" />
+        </Component>
+        <Component refDes="RPi_TSOP_R1" packageRef="RESC1206(3216)_M" part="RESC1206(3216)_M" layerRef="Top Layer" mountType="OTHER" weight="0" height="0.029528" standoff="0">
+          <Xform rotation="180" />
+          <Location x="3.975" y="4.118976" />
+        </Component>
+        <Component refDes="RPi_TSOP_LED1" packageRef="LED-0805" part="LED-0805" layerRef="Top Layer" mountType="OTHER" weight="0" height="0.027559" standoff="0">
+          <Xform rotation="270" />
+          <Location x="3.915" y="4.57" />
+        </Component>
+        <Component refDes="RPi_TSOP_J1" packageRef="HDR1X5" part="HDR1X5" layerRef="Top Layer" mountType="OTHER" weight="0" height="0.027559" standoff="0">
+          <Xform rotation="270" />
+          <Location x="4.3" y="4.55" />
+        </Component>
+        <LayerFeature layerRef="Top Paste">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Top Paste" />
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Top Overlay">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Top Overlay" />
+          </Set>
+          <Set net="No Net">
+            <Features>
+              <UserSpecial>
+                <Arc startX="3.939921" startY="4.195866" endX="3.939921" endY="4.195866" centerX="3.935" centerY="4.195866" clockwise="false">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.009842" lineProperty="SOLID" />
+                </Arc>
+                <Line startX="3.879882" startY="4.251575" endX="3.879882" endY="4.448425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.879882" startY="4.448425" endX="3.886772" endY="4.448425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.879882" startY="4.251575" endX="3.886772" endY="4.251575">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.068858" startY="4.27126" endX="4.068858" endY="4.42874">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.990118" startY="4.42874" endX="4.068858" endY="4.42874">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.990121" startY="4.271263" endX="4.068861" endY="4.271263">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.983228" startY="4.448425" endX="3.990118" endY="4.448425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.983228" startY="4.251575" endX="3.990118" endY="4.251575">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.990118" startY="4.42874" endX="3.990118" endY="4.448425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.990121" startY="4.251578" endX="3.990121" endY="4.271263">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.955315" startY="4.152441" endX="3.994685" endY="4.152441">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.955315" startY="4.085512" endX="3.994685" endY="4.085512">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.88" startY="4.507" endX="3.95" endY="4.507">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.88" startY="4.507" endX="3.88" endY="4.6325">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.88" startY="4.6325" endX="3.95" endY="4.6325">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.95" startY="4.507" endX="3.95" endY="4.6325">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.925" startY="4.5775" endX="3.935" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.915" startY="4.5775" endX="3.925" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.905" startY="4.5775" endX="3.915" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.895" startY="4.5775" endX="3.905" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.895" startY="4.5775" endX="3.905" endY="4.57">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.905" startY="4.57" endX="3.915" endY="4.562">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.915" startY="4.562" endX="3.935" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.9125" startY="4.565" endX="3.935" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.9125" startY="4.565" endX="3.925" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.91" startY="4.567" endX="3.925" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.91" startY="4.567" endX="3.915" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.905" startY="4.57" endX="3.915" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.905" startY="4.57" endX="3.905" endY="4.5775">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.005" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.25" startY="4.1" endX="4.35" endY="4.1">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.25" startY="4.1" endX="4.25" endY="4.6">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.35" startY="4.1" endX="4.35" endY="4.6">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.25" startY="4.6" endX="4.35" endY="4.6">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007874" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.157494" startY="4.274417" endX="4.157494" endY="4.236425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.176309" startY="4.274417" endX="4.17269" endY="4.272608">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.17269" startY="4.272608" endX="4.169072" endY="4.26899">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.169072" startY="4.26899" endX="4.167263" endY="4.265371">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.167263" startY="4.265371" endX="4.165454" endY="4.259944">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.165454" startY="4.259944" endX="4.165454" endY="4.250898">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.165454" startY="4.250898" endX="4.167263" endY="4.245471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.167263" startY="4.245471" endX="4.169072" endY="4.241853">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.169072" startY="4.241853" endX="4.17269" endY="4.238234">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.17269" startY="4.238234" endX="4.176309" endY="4.236425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.176309" startY="4.236425" endX="4.183545" endY="4.236425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.183545" startY="4.236425" endX="4.187163" endY="4.238234">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.187163" startY="4.238234" endX="4.190782" endY="4.241853">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.190782" startY="4.241853" endX="4.192591" endY="4.245471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.192591" startY="4.245471" endX="4.1944" endY="4.250898">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.1944" startY="4.250898" endX="4.1944" endY="4.259944">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.1944" startY="4.259944" endX="4.192591" endY="4.265371">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.192591" startY="4.265371" endX="4.190782" endY="4.26899">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.190782" startY="4.26899" endX="4.187163" endY="4.272608">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.187163" startY="4.272608" endX="4.183545" endY="4.274417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.183545" startY="4.274417" endX="4.176309" endY="4.274417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.221356" startY="4.274417" endX="4.203265" endY="4.249089">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.203265" startY="4.249089" endX="4.230402" endY="4.249089">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.221356" startY="4.274417" endX="4.221356" endY="4.236425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.141618" startY="4.570992" endX="4.161519" endY="4.570992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.161519" startY="4.570992" endX="4.150664" endY="4.556519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.150664" startY="4.556519" endX="4.156091" endY="4.556519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.156091" startY="4.556519" endX="4.15971" endY="4.55471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.15971" startY="4.55471" endX="4.161519" endY="4.5529">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.161519" startY="4.5529" endX="4.163328" endY="4.547473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.163328" startY="4.547473" endX="4.163328" endY="4.543855">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.163328" startY="4.543855" endX="4.161519" endY="4.538427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.161519" startY="4.538427" endX="4.1579" endY="4.534809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.1579" startY="4.534809" endX="4.152473" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.152473" startY="4.533" endX="4.147046" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.147046" startY="4.533" endX="4.141618" endY="4.534809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.141618" startY="4.534809" endX="4.139809" endY="4.536618">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.139809" startY="4.536618" endX="4.138" endY="4.540236">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.171831" startY="4.570992" endX="4.186304" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.200777" startY="4.570992" endX="4.186304" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.20928" startY="4.570992" endX="4.22918" endY="4.570992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.22918" startY="4.570992" endX="4.218326" endY="4.556519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.218326" startY="4.556519" endX="4.223753" endY="4.556519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.223753" startY="4.556519" endX="4.227371" endY="4.55471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.227371" startY="4.55471" endX="4.22918" endY="4.5529">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.22918" startY="4.5529" endX="4.23099" endY="4.547473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.23099" startY="4.547473" endX="4.23099" endY="4.543855">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.23099" startY="4.543855" endX="4.22918" endY="4.538427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.22918" startY="4.538427" endX="4.225562" endY="4.534809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.225562" startY="4.534809" endX="4.220135" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.220135" startY="4.533" endX="4.214707" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.214707" startY="4.533" endX="4.20928" endY="4.534809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.20928" startY="4.534809" endX="4.207471" endY="4.536618">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.207471" startY="4.536618" endX="4.205662" endY="4.540236">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.15916" startY="4.374417" endX="4.15916" endY="4.336425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.177975" startY="4.374417" endX="4.174357" endY="4.372608">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.174357" startY="4.372608" endX="4.170738" endY="4.36899">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.170738" startY="4.36899" endX="4.168929" endY="4.365371">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.168929" startY="4.365371" endX="4.16712" endY="4.359944">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.16712" startY="4.359944" endX="4.16712" endY="4.350898">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.16712" startY="4.350898" endX="4.168929" endY="4.345471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.168929" startY="4.345471" endX="4.170738" endY="4.341853">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.170738" startY="4.341853" endX="4.174357" endY="4.338234">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.174357" startY="4.338234" endX="4.177975" endY="4.336425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.177975" startY="4.336425" endX="4.185212" endY="4.336425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.185212" startY="4.336425" endX="4.18883" endY="4.338234">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.18883" startY="4.338234" endX="4.192448" endY="4.341853">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.192448" startY="4.341853" endX="4.194257" endY="4.345471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.194257" startY="4.345471" endX="4.196066" endY="4.350898">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.196066" startY="4.350898" endX="4.196066" endY="4.359944">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.196066" startY="4.359944" endX="4.194257" endY="4.365371">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.194257" startY="4.365371" endX="4.192448" endY="4.36899">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.192448" startY="4.36899" endX="4.18883" endY="4.372608">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.18883" startY="4.372608" endX="4.185212" endY="4.374417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.185212" startY="4.374417" endX="4.177975" endY="4.374417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.208549" startY="4.374417" endX="4.22845" endY="4.374417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.22845" startY="4.374417" endX="4.217595" endY="4.359944">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.217595" startY="4.359944" endX="4.223022" endY="4.359944">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.223022" startY="4.359944" endX="4.226641" endY="4.358135">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.226641" startY="4.358135" endX="4.22845" endY="4.356326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.22845" startY="4.356326" endX="4.230259" endY="4.350898">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.230259" startY="4.350898" endX="4.230259" endY="4.34728">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.230259" startY="4.34728" endX="4.22845" endY="4.341853">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.22845" startY="4.341853" endX="4.224832" endY="4.338234">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.224832" startY="4.338234" endX="4.219404" endY="4.336425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.219404" startY="4.336425" endX="4.213977" endY="4.336425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.213977" startY="4.336425" endX="4.208549" endY="4.338234">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.208549" startY="4.338234" endX="4.20674" endY="4.340044">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.20674" startY="4.340044" endX="4.204931" endY="4.343662">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.15916" startY="4.474417" endX="4.15916" endY="4.436425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.177975" startY="4.474417" endX="4.174357" endY="4.472608">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.174357" startY="4.472608" endX="4.170738" endY="4.46899">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.170738" startY="4.46899" endX="4.168929" endY="4.465371">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.168929" startY="4.465371" endX="4.16712" endY="4.459944">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.16712" startY="4.459944" endX="4.16712" endY="4.450898">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.16712" startY="4.450898" endX="4.168929" endY="4.445471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.168929" startY="4.445471" endX="4.170738" endY="4.441853">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.170738" startY="4.441853" endX="4.174357" endY="4.438234">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.174357" startY="4.438234" endX="4.177975" endY="4.436425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.177975" startY="4.436425" endX="4.185212" endY="4.436425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.185212" startY="4.436425" endX="4.18883" endY="4.438234">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.18883" startY="4.438234" endX="4.192448" endY="4.441853">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.192448" startY="4.441853" endX="4.194257" endY="4.445471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.194257" startY="4.445471" endX="4.196066" endY="4.450898">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.196066" startY="4.450898" endX="4.196066" endY="4.459944">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.196066" startY="4.459944" endX="4.194257" endY="4.465371">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.194257" startY="4.465371" endX="4.192448" endY="4.46899">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.192448" startY="4.46899" endX="4.18883" endY="4.472608">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.18883" startY="4.472608" endX="4.185212" endY="4.474417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.185212" startY="4.474417" endX="4.177975" endY="4.474417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.20674" startY="4.465371" endX="4.20674" endY="4.46718">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.20674" startY="4.46718" endX="4.208549" endY="4.470799">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.208549" startY="4.470799" endX="4.210358" endY="4.472608">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.210358" startY="4.472608" endX="4.213977" endY="4.474417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.213977" startY="4.474417" endX="4.221213" endY="4.474417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.221213" startY="4.474417" endX="4.224832" endY="4.472608">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.224832" startY="4.472608" endX="4.226641" endY="4.470799">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.226641" startY="4.470799" endX="4.22845" endY="4.46718">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.22845" startY="4.46718" endX="4.22845" endY="4.463562">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.22845" startY="4.463562" endX="4.226641" endY="4.459944">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.226641" startY="4.459944" endX="4.223022" endY="4.454517">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.223022" startY="4.454517" endX="4.204931" endY="4.436425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.204931" startY="4.436425" endX="4.230259" endY="4.436425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.165137" startY="4.156946" endX="4.163328" endY="4.160565">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.163328" startY="4.160565" endX="4.15971" endY="4.164183">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.15971" startY="4.164183" endX="4.156091" endY="4.165992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.156091" startY="4.165992" endX="4.148855" endY="4.165992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.148855" startY="4.165992" endX="4.145236" endY="4.164183">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.145236" startY="4.164183" endX="4.141618" endY="4.160565">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.141618" startY="4.160565" endX="4.139809" endY="4.156946">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.139809" startY="4.156946" endX="4.138" endY="4.151519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.138" startY="4.151519" endX="4.138" endY="4.142473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.138" startY="4.142473" endX="4.139809" endY="4.137046">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.139809" startY="4.137046" endX="4.141618" endY="4.133427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.141618" startY="4.133427" endX="4.145236" endY="4.129809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.145236" startY="4.129809" endX="4.148855" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.148855" startY="4.128" endX="4.156091" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.156091" startY="4.128" endX="4.15971" endY="4.129809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.15971" startY="4.129809" endX="4.163328" endY="4.133427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.163328" startY="4.133427" endX="4.165137" endY="4.137046">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.165137" startY="4.137046" endX="4.165137" endY="4.142473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.156091" startY="4.142473" endX="4.165137" endY="4.142473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.173821" startY="4.165992" endX="4.173821" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.173821" startY="4.165992" endX="4.199149" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.199149" startY="4.165992" endX="4.199149" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.209642" startY="4.165992" endX="4.209642" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.209642" startY="4.165992" endX="4.222306" endY="4.165992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.222306" startY="4.165992" endX="4.227733" endY="4.164183">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.227733" startY="4.164183" endX="4.231351" endY="4.160565">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.231351" startY="4.160565" endX="4.233161" endY="4.156946">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.233161" startY="4.156946" endX="4.23497" endY="4.151519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.23497" startY="4.151519" endX="4.23497" endY="4.142473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.23497" startY="4.142473" endX="4.233161" endY="4.137046">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.233161" startY="4.137046" endX="4.231351" endY="4.133427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.231351" startY="4.133427" endX="4.227733" endY="4.129809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.227733" startY="4.129809" endX="4.222306" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.222306" startY="4.128" endX="4.209642" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.020011" startY="4.45" endX="4.049169" endY="4.45">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.049169" startY="4.45" endX="4.055" endY="4.455831">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.055" startY="4.455831" endX="4.055" endY="4.467494">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.055" startY="4.467494" endX="4.049169" endY="4.473326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.049169" startY="4.473326" endX="4.020011" endY="4.473326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.055" startY="4.484989" endX="4.055" endY="4.496652">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.055" startY="4.496652" endX="4.055" endY="4.49082">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.055" startY="4.49082" endX="4.020011" endY="4.49082">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.020011" startY="4.49082" endX="4.020011" endY="4.49082">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.020011" startY="4.49082" endX="4.025843" endY="4.484989">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.005" startY="4.53" endX="3.970011" endY="4.53">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.970011" startY="4.53" endX="3.970011" endY="4.547494">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.970011" startY="4.547494" endX="3.975843" endY="4.553326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.975843" startY="4.553326" endX="3.987506" endY="4.553326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.987506" startY="4.553326" endX="3.993337" endY="4.547494">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.993337" startY="4.547494" endX="3.993337" endY="4.53">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.970011" startY="4.564989" endX="4.005" endY="4.564989">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.005" startY="4.564989" endX="3.993337" endY="4.576652">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.993337" startY="4.576652" endX="4.005" endY="4.588314">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.005" startY="4.588314" endX="3.970011" endY="4.588314">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.005" startY="4.599977" endX="3.970011" endY="4.599977">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.970011" startY="4.599977" endX="3.970011" endY="4.617472">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.970011" startY="4.617472" endX="3.975843" endY="4.623303">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.975843" startY="4.623303" endX="3.987506" endY="4.623303">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.987506" startY="4.623303" endX="3.993337" endY="4.617472">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.993337" startY="4.617472" endX="3.993337" endY="4.599977">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.993337" startY="4.61164" endX="4.005" endY="4.623303">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Top Solder">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Top Solder" />
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Top Layer">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Top Layer" />
+          </Set>
+          <Set net="3V3">
+            <Features>
+              <UserSpecial>
+                <Line startX="3.98" startY="4.495" endX="3.98" endY="4.55">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.925" startY="4.605" endX="3.98" endY="4.55">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.915" startY="4.605" endX="3.925" endY="4.605">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.935" startY="4.45" endX="3.98" endY="4.495">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="3.942463" y="4.580466" />
+                  <PolyStepSegment x="3.94029" y="4.582569" />
+                  <PolyStepSegment x="3.93645" y="4.585853" />
+                  <PolyStepSegment x="3.934783" y="4.587034" />
+                  <PolyStepSegment x="3.933285" y="4.587906" />
+                  <PolyStepSegment x="3.931955" y="4.588472" />
+                  <PolyStepSegment x="3.930794" y="4.588729" />
+                  <PolyStepSegment x="3.929801" y="4.588679" />
+                  <PolyStepSegment x="3.928977" y="4.588322" />
+                  <PolyStepSegment x="3.928321" y="4.587657" />
+                  <PolyStepSegment x="3.939843" y="4.604179" />
+                  <PolyStepSegment x="3.939401" y="4.6033" />
+                  <PolyStepSegment x="3.939217" y="4.602303" />
+                  <PolyStepSegment x="3.939291" y="4.601186" />
+                  <PolyStepSegment x="3.939623" y="4.59995" />
+                  <PolyStepSegment x="3.940213" y="4.598596" />
+                  <PolyStepSegment x="3.941061" y="4.597122" />
+                  <PolyStepSegment x="3.942168" y="4.595529" />
+                  <PolyStepSegment x="3.943532" y="4.593817" />
+                  <PolyStepSegment x="3.947034" y="4.590037" />
+                  <PolyStepSegment x="3.942463" y="4.580466" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="3.975009" y="4.482938" />
+                  <PolyStepSegment x="3.973534" y="4.481212" />
+                  <PolyStepSegment x="3.972219" y="4.479144" />
+                  <PolyStepSegment x="3.971064" y="4.476736" />
+                  <PolyStepSegment x="3.97007" y="4.473986" />
+                  <PolyStepSegment x="3.969237" y="4.470895" />
+                  <PolyStepSegment x="3.968564" y="4.467463" />
+                  <PolyStepSegment x="3.968052" y="4.46369" />
+                  <PolyStepSegment x="3.967509" y="4.455121" />
+                  <PolyStepSegment x="3.967479" y="4.450325" />
+                  <PolyStepSegment x="3.935325" y="4.482479" />
+                  <PolyStepSegment x="3.940121" y="4.482509" />
+                  <PolyStepSegment x="3.94869" y="4.483052" />
+                  <PolyStepSegment x="3.952463" y="4.483564" />
+                  <PolyStepSegment x="3.955895" y="4.484237" />
+                  <PolyStepSegment x="3.958986" y="4.48507" />
+                  <PolyStepSegment x="3.961736" y="4.486064" />
+                  <PolyStepSegment x="3.964144" y="4.487219" />
+                  <PolyStepSegment x="3.966212" y="4.488534" />
+                  <PolyStepSegment x="3.967938" y="4.490009" />
+                  <PolyStepSegment x="3.975009" y="4.482938" />
+                </Polygon>
+              </Contour>
+            </Features>
+          </Set>
+          <Set net="GND">
+            <Features>
+              <UserSpecial>
+                <Line startX="4.135" startY="4.15" endX="4.3" endY="4.15">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.935" startY="4.35" endX="4.135" endY="4.15">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.953425" startY="4.066575" endX="4.216575" endY="4.066575">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.913976" startY="4.106024" endX="3.953425" endY="4.066575">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.913976" startY="4.106024" endX="3.913976" endY="4.118976">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.216575" startY="4.066575" endX="4.3" endY="4.15">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="3.938305" y="4.074624" />
+                  <PolyStepSegment x="3.936338" y="4.076521" />
+                  <PolyStepSegment x="3.932774" y="4.07953" />
+                  <PolyStepSegment x="3.931175" y="4.080641" />
+                  <PolyStepSegment x="3.9297" y="4.081491" />
+                  <PolyStepSegment x="3.928347" y="4.08208" />
+                  <PolyStepSegment x="3.927117" y="4.082406" />
+                  <PolyStepSegment x="3.92601" y="4.082471" />
+                  <PolyStepSegment x="3.925025" y="4.082274" />
+                  <PolyStepSegment x="3.924163" y="4.081815" />
+                  <PolyStepSegment x="3.940311" y="4.093711" />
+                  <PolyStepSegment x="3.939663" y="4.093039" />
+                  <PolyStepSegment x="3.939318" y="4.092202" />
+                  <PolyStepSegment x="3.939277" y="4.0912" />
+                  <PolyStepSegment x="3.939541" y="4.090033" />
+                  <PolyStepSegment x="3.940108" y="4.088701" />
+                  <PolyStepSegment x="3.940979" y="4.087205" />
+                  <PolyStepSegment x="3.942154" y="4.085543" />
+                  <PolyStepSegment x="3.943633" y="4.083716" />
+                  <PolyStepSegment x="3.947502" y="4.079569" />
+                  <PolyStepSegment x="3.938305" y="4.074624" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.253182" y="4.155" />
+                  <PolyStepSegment x="4.255307" y="4.155157" />
+                  <PolyStepSegment x="4.25753" y="4.155627" />
+                  <PolyStepSegment x="4.259854" y="4.15641" />
+                  <PolyStepSegment x="4.262278" y="4.157507" />
+                  <PolyStepSegment x="4.264801" y="4.158917" />
+                  <PolyStepSegment x="4.267424" y="4.160641" />
+                  <PolyStepSegment x="4.270147" y="4.162678" />
+                  <PolyStepSegment x="4.275891" y="4.167692" />
+                  <PolyStepSegment x="4.278913" y="4.170669" />
+                  <PolyStepSegment x="4.278913" y="4.129331" />
+                  <PolyStepSegment x="4.275891" y="4.132308" />
+                  <PolyStepSegment x="4.270147" y="4.137322" />
+                  <PolyStepSegment x="4.267424" y="4.139359" />
+                  <PolyStepSegment x="4.264801" y="4.141083" />
+                  <PolyStepSegment x="4.262278" y="4.142493" />
+                  <PolyStepSegment x="4.259854" y="4.14359" />
+                  <PolyStepSegment x="4.25753" y="4.144373" />
+                  <PolyStepSegment x="4.255307" y="4.144843" />
+                  <PolyStepSegment x="4.253182" y="4.145" />
+                  <PolyStepSegment x="4.253182" y="4.155" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.263359" y="4.12043" />
+                  <PolyStepSegment x="4.264751" y="4.122043" />
+                  <PolyStepSegment x="4.265991" y="4.123948" />
+                  <PolyStepSegment x="4.26708" y="4.126145" />
+                  <PolyStepSegment x="4.268018" y="4.128635" />
+                  <PolyStepSegment x="4.268805" y="4.131416" />
+                  <PolyStepSegment x="4.269441" y="4.13449" />
+                  <PolyStepSegment x="4.269926" y="4.137855" />
+                  <PolyStepSegment x="4.270442" y="4.145463" />
+                  <PolyStepSegment x="4.270474" y="4.149705" />
+                  <PolyStepSegment x="4.299705" y="4.120474" />
+                  <PolyStepSegment x="4.295463" y="4.120442" />
+                  <PolyStepSegment x="4.287855" y="4.119926" />
+                  <PolyStepSegment x="4.28449" y="4.119441" />
+                  <PolyStepSegment x="4.281416" y="4.118805" />
+                  <PolyStepSegment x="4.278635" y="4.118018" />
+                  <PolyStepSegment x="4.276145" y="4.11708" />
+                  <PolyStepSegment x="4.273948" y="4.115991" />
+                  <PolyStepSegment x="4.272043" y="4.114751" />
+                  <PolyStepSegment x="4.27043" y="4.113359" />
+                  <PolyStepSegment x="4.263359" y="4.12043" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="3.967938" y="4.309991" />
+                  <PolyStepSegment x="3.966212" y="4.311466" />
+                  <PolyStepSegment x="3.964144" y="4.312781" />
+                  <PolyStepSegment x="3.961736" y="4.313936" />
+                  <PolyStepSegment x="3.958986" y="4.31493" />
+                  <PolyStepSegment x="3.955895" y="4.315763" />
+                  <PolyStepSegment x="3.952463" y="4.316436" />
+                  <PolyStepSegment x="3.94869" y="4.316948" />
+                  <PolyStepSegment x="3.940121" y="4.317491" />
+                  <PolyStepSegment x="3.935325" y="4.317521" />
+                  <PolyStepSegment x="3.967479" y="4.349675" />
+                  <PolyStepSegment x="3.967509" y="4.344879" />
+                  <PolyStepSegment x="3.968052" y="4.33631" />
+                  <PolyStepSegment x="3.968564" y="4.332537" />
+                  <PolyStepSegment x="3.969237" y="4.329105" />
+                  <PolyStepSegment x="3.97007" y="4.326014" />
+                  <PolyStepSegment x="3.971064" y="4.323264" />
+                  <PolyStepSegment x="3.972219" y="4.320856" />
+                  <PolyStepSegment x="3.973534" y="4.318788" />
+                  <PolyStepSegment x="3.975009" y="4.317062" />
+                  <PolyStepSegment x="3.967938" y="4.309991" />
+                </Polygon>
+              </Contour>
+            </Features>
+          </Set>
+          <Set net="NetLED1_-">
+            <Features>
+              <UserSpecial>
+                <Line startX="4.036024" startY="4.11" endX="4.036024" endY="4.118976">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.975" startY="4.18" endX="4.036024" endY="4.118976">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.9105" startY="4.18" endX="3.975" endY="4.18">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.8805" startY="4.21" endX="3.9105" endY="4.18">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.8805" startY="4.21" endX="3.8805" endY="4.5005">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.8805" startY="4.5005" endX="3.915" endY="4.535">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.002498" y="4.159573" />
+                  <PolyStepSegment x="4.003841" y="4.158267" />
+                  <PolyStepSegment x="4.006104" y="4.156305" />
+                  <PolyStepSegment x="4.007023" y="4.155649" />
+                  <PolyStepSegment x="4.007801" y="4.155209" />
+                  <PolyStepSegment x="4.008437" y="4.154986" />
+                  <PolyStepSegment x="4.008932" y="4.154979" />
+                  <PolyStepSegment x="4.009286" y="4.155189" />
+                  <PolyStepSegment x="4.009498" y="4.155615" />
+                  <PolyStepSegment x="4.009569" y="4.156258" />
+                  <PolyStepSegment x="4.009569" y="4.131289" />
+                  <PolyStepSegment x="4.009498" y="4.132703" />
+                  <PolyStepSegment x="4.009286" y="4.134118" />
+                  <PolyStepSegment x="4.008932" y="4.135532" />
+                  <PolyStepSegment x="4.008437" y="4.136946" />
+                  <PolyStepSegment x="4.007801" y="4.13836" />
+                  <PolyStepSegment x="4.007023" y="4.139774" />
+                  <PolyStepSegment x="4.006104" y="4.141189" />
+                  <PolyStepSegment x="4.005043" y="4.142603" />
+                  <PolyStepSegment x="4.003841" y="4.144017" />
+                  <PolyStepSegment x="4.002498" y="4.145431" />
+                  <PolyStepSegment x="4.002498" y="4.159573" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="3.884493" y="4.511564" />
+                  <PolyStepSegment x="3.885689" y="4.512808" />
+                  <PolyStepSegment x="3.887653" y="4.515153" />
+                  <PolyStepSegment x="3.888421" y="4.516254" />
+                  <PolyStepSegment x="3.889046" y="4.517309" />
+                  <PolyStepSegment x="3.889529" y="4.518317" />
+                  <PolyStepSegment x="3.88987" y="4.519277" />
+                  <PolyStepSegment x="3.890068" y="4.52019" />
+                  <PolyStepSegment x="3.890124" y="4.521056" />
+                  <PolyStepSegment x="3.890037" y="4.521875" />
+                  <PolyStepSegment x="3.911679" y="4.517657" />
+                  <PolyStepSegment x="3.91049" y="4.517789" />
+                  <PolyStepSegment x="3.909252" y="4.517732" />
+                  <PolyStepSegment x="3.907963" y="4.517486" />
+                  <PolyStepSegment x="3.906624" y="4.51705" />
+                  <PolyStepSegment x="3.905235" y="4.516426" />
+                  <PolyStepSegment x="3.903795" y="4.515612" />
+                  <PolyStepSegment x="3.902306" y="4.514609" />
+                  <PolyStepSegment x="3.900766" y="4.513417" />
+                  <PolyStepSegment x="3.899176" y="4.512036" />
+                  <PolyStepSegment x="3.897537" y="4.510466" />
+                  <PolyStepSegment x="3.884493" y="4.511564" />
+                </Polygon>
+              </Contour>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Dielectric 1">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Dielectric 1" />
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Bottom Layer">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Bottom Layer" />
+          </Set>
+          <Set net="Net_U1">
+            <Features>
+              <UserSpecial>
+                <Line startX="4.105" startY="4.35" endX="4.105" endY="4.45">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.105" startY="4.25" endX="4.105" endY="4.35">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.935" startY="4.25" endX="4.105" endY="4.25">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.11" y="4.38738" />
+                  <PolyStepSegment x="4.11005" y="4.385457" />
+                  <PolyStepSegment x="4.1102" y="4.383737" />
+                  <PolyStepSegment x="4.11045" y="4.382219" />
+                  <PolyStepSegment x="4.1108" y="4.380903" />
+                  <PolyStepSegment x="4.11125" y="4.37979" />
+                  <PolyStepSegment x="4.1118" y="4.378879" />
+                  <PolyStepSegment x="4.11245" y="4.378171" />
+                  <PolyStepSegment x="4.1132" y="4.377665" />
+                  <PolyStepSegment x="4.11405" y="4.377361" />
+                  <PolyStepSegment x="4.115" y="4.37726" />
+                  <PolyStepSegment x="4.095" y="4.37726" />
+                  <PolyStepSegment x="4.09595" y="4.377361" />
+                  <PolyStepSegment x="4.0968" y="4.377665" />
+                  <PolyStepSegment x="4.09755" y="4.378171" />
+                  <PolyStepSegment x="4.0982" y="4.378879" />
+                  <PolyStepSegment x="4.09875" y="4.37979" />
+                  <PolyStepSegment x="4.0992" y="4.380903" />
+                  <PolyStepSegment x="4.09955" y="4.382219" />
+                  <PolyStepSegment x="4.0998" y="4.383737" />
+                  <PolyStepSegment x="4.09995" y="4.385457" />
+                  <PolyStepSegment x="4.1" y="4.38738" />
+                  <PolyStepSegment x="4.11" y="4.38738" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.1" y="4.31262" />
+                  <PolyStepSegment x="4.09995" y="4.31452" />
+                  <PolyStepSegment x="4.0998" y="4.31622" />
+                  <PolyStepSegment x="4.09955" y="4.31772" />
+                  <PolyStepSegment x="4.0992" y="4.31902" />
+                  <PolyStepSegment x="4.09875" y="4.32012" />
+                  <PolyStepSegment x="4.0982" y="4.32102" />
+                  <PolyStepSegment x="4.09755" y="4.32172" />
+                  <PolyStepSegment x="4.0968" y="4.32222" />
+                  <PolyStepSegment x="4.09595" y="4.32252" />
+                  <PolyStepSegment x="4.095" y="4.32262" />
+                  <PolyStepSegment x="4.115" y="4.32262" />
+                  <PolyStepSegment x="4.11405" y="4.32252" />
+                  <PolyStepSegment x="4.1132" y="4.32222" />
+                  <PolyStepSegment x="4.11245" y="4.32172" />
+                  <PolyStepSegment x="4.1118" y="4.32102" />
+                  <PolyStepSegment x="4.11125" y="4.32012" />
+                  <PolyStepSegment x="4.1108" y="4.31902" />
+                  <PolyStepSegment x="4.11045" y="4.31772" />
+                  <PolyStepSegment x="4.1102" y="4.31622" />
+                  <PolyStepSegment x="4.11005" y="4.31452" />
+                  <PolyStepSegment x="4.11" y="4.31262" />
+                  <PolyStepSegment x="4.1" y="4.31262" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.05762" y="4.255" />
+                  <PolyStepSegment x="4.059543" y="4.25505" />
+                  <PolyStepSegment x="4.061263" y="4.2552" />
+                  <PolyStepSegment x="4.062781" y="4.25545" />
+                  <PolyStepSegment x="4.064097" y="4.2558" />
+                  <PolyStepSegment x="4.06521" y="4.25625" />
+                  <PolyStepSegment x="4.066121" y="4.2568" />
+                  <PolyStepSegment x="4.066829" y="4.25745" />
+                  <PolyStepSegment x="4.067335" y="4.2582" />
+                  <PolyStepSegment x="4.067639" y="4.25905" />
+                  <PolyStepSegment x="4.06774" y="4.26" />
+                  <PolyStepSegment x="4.06774" y="4.24" />
+                  <PolyStepSegment x="4.067639" y="4.24095" />
+                  <PolyStepSegment x="4.067335" y="4.2418" />
+                  <PolyStepSegment x="4.066829" y="4.24255" />
+                  <PolyStepSegment x="4.066121" y="4.2432" />
+                  <PolyStepSegment x="4.06521" y="4.24375" />
+                  <PolyStepSegment x="4.064097" y="4.2442" />
+                  <PolyStepSegment x="4.062781" y="4.24455" />
+                  <PolyStepSegment x="4.061263" y="4.2448" />
+                  <PolyStepSegment x="4.059543" y="4.24495" />
+                  <PolyStepSegment x="4.05762" y="4.245" />
+                  <PolyStepSegment x="4.05762" y="4.255" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.11" y="4.28738" />
+                  <PolyStepSegment x="4.11005" y="4.285457" />
+                  <PolyStepSegment x="4.1102" y="4.283737" />
+                  <PolyStepSegment x="4.11045" y="4.282219" />
+                  <PolyStepSegment x="4.1108" y="4.280903" />
+                  <PolyStepSegment x="4.11125" y="4.27979" />
+                  <PolyStepSegment x="4.1118" y="4.278879" />
+                  <PolyStepSegment x="4.11245" y="4.278171" />
+                  <PolyStepSegment x="4.1132" y="4.277665" />
+                  <PolyStepSegment x="4.11405" y="4.277361" />
+                  <PolyStepSegment x="4.115" y="4.27726" />
+                  <PolyStepSegment x="4.095" y="4.27726" />
+                  <PolyStepSegment x="4.09595" y="4.277361" />
+                  <PolyStepSegment x="4.0968" y="4.277665" />
+                  <PolyStepSegment x="4.09755" y="4.278171" />
+                  <PolyStepSegment x="4.0982" y="4.278879" />
+                  <PolyStepSegment x="4.09875" y="4.27979" />
+                  <PolyStepSegment x="4.0992" y="4.280903" />
+                  <PolyStepSegment x="4.09955" y="4.282219" />
+                  <PolyStepSegment x="4.0998" y="4.283737" />
+                  <PolyStepSegment x="4.09995" y="4.285457" />
+                  <PolyStepSegment x="4.1" y="4.28738" />
+                  <PolyStepSegment x="4.11" y="4.28738" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.1" y="4.41262" />
+                  <PolyStepSegment x="4.09995" y="4.41452" />
+                  <PolyStepSegment x="4.0998" y="4.41622" />
+                  <PolyStepSegment x="4.09955" y="4.41772" />
+                  <PolyStepSegment x="4.0992" y="4.41902" />
+                  <PolyStepSegment x="4.09875" y="4.42012" />
+                  <PolyStepSegment x="4.0982" y="4.42102" />
+                  <PolyStepSegment x="4.09755" y="4.42172" />
+                  <PolyStepSegment x="4.0968" y="4.42222" />
+                  <PolyStepSegment x="4.09595" y="4.42252" />
+                  <PolyStepSegment x="4.095" y="4.42262" />
+                  <PolyStepSegment x="4.115" y="4.42262" />
+                  <PolyStepSegment x="4.11405" y="4.42252" />
+                  <PolyStepSegment x="4.1132" y="4.42222" />
+                  <PolyStepSegment x="4.11245" y="4.42172" />
+                  <PolyStepSegment x="4.1118" y="4.42102" />
+                  <PolyStepSegment x="4.11125" y="4.42012" />
+                  <PolyStepSegment x="4.1108" y="4.41902" />
+                  <PolyStepSegment x="4.11045" y="4.41772" />
+                  <PolyStepSegment x="4.1102" y="4.41622" />
+                  <PolyStepSegment x="4.11005" y="4.41452" />
+                  <PolyStepSegment x="4.11" y="4.41262" />
+                  <PolyStepSegment x="4.1" y="4.41262" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="3.97736" y="4.245" />
+                  <PolyStepSegment x="3.975438" y="4.24495" />
+                  <PolyStepSegment x="3.973717" y="4.2448" />
+                  <PolyStepSegment x="3.972199" y="4.24455" />
+                  <PolyStepSegment x="3.970884" y="4.2442" />
+                  <PolyStepSegment x="3.96977" y="4.24375" />
+                  <PolyStepSegment x="3.96886" y="4.2432" />
+                  <PolyStepSegment x="3.968151" y="4.24255" />
+                  <PolyStepSegment x="3.967645" y="4.2418" />
+                  <PolyStepSegment x="3.967342" y="4.24095" />
+                  <PolyStepSegment x="3.96724" y="4.24" />
+                  <PolyStepSegment x="3.96724" y="4.26" />
+                  <PolyStepSegment x="3.967342" y="4.25905" />
+                  <PolyStepSegment x="3.967645" y="4.2582" />
+                  <PolyStepSegment x="3.968151" y="4.25745" />
+                  <PolyStepSegment x="3.96886" y="4.2568" />
+                  <PolyStepSegment x="3.96977" y="4.25625" />
+                  <PolyStepSegment x="3.970884" y="4.2558" />
+                  <PolyStepSegment x="3.972199" y="4.25545" />
+                  <PolyStepSegment x="3.973717" y="4.2552" />
+                  <PolyStepSegment x="3.975438" y="4.25505" />
+                  <PolyStepSegment x="3.97736" y="4.255" />
+                  <PolyStepSegment x="3.97736" y="4.245" />
+                </Polygon>
+              </Contour>
+            </Features>
+          </Set>
+          <Set net="3V3">
+            <Features>
+              <UserSpecial>
+                <Line startX="4.035" startY="4.55" endX="4.3" endY="4.55">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.935" startY="4.45" endX="4.035" endY="4.55">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.260592" y="4.555" />
+                  <PolyStepSegment x="4.262515" y="4.55505" />
+                  <PolyStepSegment x="4.264236" y="4.5552" />
+                  <PolyStepSegment x="4.265754" y="4.55545" />
+                  <PolyStepSegment x="4.267069" y="4.5558" />
+                  <PolyStepSegment x="4.268182" y="4.55625" />
+                  <PolyStepSegment x="4.269093" y="4.5568" />
+                  <PolyStepSegment x="4.269802" y="4.55745" />
+                  <PolyStepSegment x="4.270308" y="4.5582" />
+                  <PolyStepSegment x="4.270611" y="4.55905" />
+                  <PolyStepSegment x="4.270712" y="4.56" />
+                  <PolyStepSegment x="4.270712" y="4.54" />
+                  <PolyStepSegment x="4.270611" y="4.54095" />
+                  <PolyStepSegment x="4.270308" y="4.5418" />
+                  <PolyStepSegment x="4.269802" y="4.54255" />
+                  <PolyStepSegment x="4.269093" y="4.5432" />
+                  <PolyStepSegment x="4.268182" y="4.54375" />
+                  <PolyStepSegment x="4.267069" y="4.5442" />
+                  <PolyStepSegment x="4.265754" y="4.54455" />
+                  <PolyStepSegment x="4.264236" y="4.5448" />
+                  <PolyStepSegment x="4.262515" y="4.54495" />
+                  <PolyStepSegment x="4.260592" y="4.545" />
+                  <PolyStepSegment x="4.260592" y="4.555" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="3.975009" y="4.482938" />
+                  <PolyStepSegment x="3.973534" y="4.481212" />
+                  <PolyStepSegment x="3.972219" y="4.479144" />
+                  <PolyStepSegment x="3.971064" y="4.476736" />
+                  <PolyStepSegment x="3.97007" y="4.473986" />
+                  <PolyStepSegment x="3.969237" y="4.470895" />
+                  <PolyStepSegment x="3.968564" y="4.467463" />
+                  <PolyStepSegment x="3.968052" y="4.46369" />
+                  <PolyStepSegment x="3.967509" y="4.455121" />
+                  <PolyStepSegment x="3.967479" y="4.450325" />
+                  <PolyStepSegment x="3.935325" y="4.482479" />
+                  <PolyStepSegment x="3.940121" y="4.482509" />
+                  <PolyStepSegment x="3.94869" y="4.483052" />
+                  <PolyStepSegment x="3.952463" y="4.483564" />
+                  <PolyStepSegment x="3.955895" y="4.484237" />
+                  <PolyStepSegment x="3.958986" y="4.48507" />
+                  <PolyStepSegment x="3.961736" y="4.486064" />
+                  <PolyStepSegment x="3.964144" y="4.487219" />
+                  <PolyStepSegment x="3.966212" y="4.488534" />
+                  <PolyStepSegment x="3.967938" y="4.490009" />
+                  <PolyStepSegment x="3.975009" y="4.482938" />
+                </Polygon>
+              </Contour>
+            </Features>
+          </Set>
+          <Set net="GPIO2">
+            <Features>
+              <Line startX="4.195" startY="4.45" endX="4.3" endY="4.45">
+                <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+              </Line>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.24238" y="4.445" />
+                  <PolyStepSegment x="4.240457" y="4.44495" />
+                  <PolyStepSegment x="4.238737" y="4.4448" />
+                  <PolyStepSegment x="4.237219" y="4.44455" />
+                  <PolyStepSegment x="4.235903" y="4.4442" />
+                  <PolyStepSegment x="4.23479" y="4.44375" />
+                  <PolyStepSegment x="4.233879" y="4.4432" />
+                  <PolyStepSegment x="4.233171" y="4.44255" />
+                  <PolyStepSegment x="4.232665" y="4.4418" />
+                  <PolyStepSegment x="4.232361" y="4.44095" />
+                  <PolyStepSegment x="4.23226" y="4.44" />
+                  <PolyStepSegment x="4.23226" y="4.46" />
+                  <PolyStepSegment x="4.232361" y="4.45905" />
+                  <PolyStepSegment x="4.232665" y="4.4582" />
+                  <PolyStepSegment x="4.233171" y="4.45745" />
+                  <PolyStepSegment x="4.233879" y="4.4568" />
+                  <PolyStepSegment x="4.23479" y="4.45625" />
+                  <PolyStepSegment x="4.235903" y="4.4558" />
+                  <PolyStepSegment x="4.237219" y="4.45545" />
+                  <PolyStepSegment x="4.238737" y="4.4552" />
+                  <PolyStepSegment x="4.240457" y="4.45505" />
+                  <PolyStepSegment x="4.24238" y="4.455" />
+                  <PolyStepSegment x="4.24238" y="4.445" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.253182" y="4.455" />
+                  <PolyStepSegment x="4.255307" y="4.455157" />
+                  <PolyStepSegment x="4.25753" y="4.455627" />
+                  <PolyStepSegment x="4.259854" y="4.45641" />
+                  <PolyStepSegment x="4.262278" y="4.457507" />
+                  <PolyStepSegment x="4.264801" y="4.458917" />
+                  <PolyStepSegment x="4.267424" y="4.460641" />
+                  <PolyStepSegment x="4.270147" y="4.462678" />
+                  <PolyStepSegment x="4.275891" y="4.467692" />
+                  <PolyStepSegment x="4.278913" y="4.470669" />
+                  <PolyStepSegment x="4.278913" y="4.429331" />
+                  <PolyStepSegment x="4.275891" y="4.432308" />
+                  <PolyStepSegment x="4.270147" y="4.437322" />
+                  <PolyStepSegment x="4.267424" y="4.439359" />
+                  <PolyStepSegment x="4.264801" y="4.441083" />
+                  <PolyStepSegment x="4.262278" y="4.442493" />
+                  <PolyStepSegment x="4.259854" y="4.44359" />
+                  <PolyStepSegment x="4.25753" y="4.444373" />
+                  <PolyStepSegment x="4.255307" y="4.444843" />
+                  <PolyStepSegment x="4.253182" y="4.445" />
+                  <PolyStepSegment x="4.253182" y="4.455" />
+                </Polygon>
+              </Contour>
+            </Features>
+          </Set>
+          <Set net="GPIO3">
+            <Features>
+              <Line startX="4.195" startY="4.35" endX="4.3" endY="4.35">
+                <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+              </Line>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.24238" y="4.345" />
+                  <PolyStepSegment x="4.240457" y="4.34495" />
+                  <PolyStepSegment x="4.238737" y="4.3448" />
+                  <PolyStepSegment x="4.237219" y="4.34455" />
+                  <PolyStepSegment x="4.235903" y="4.3442" />
+                  <PolyStepSegment x="4.23479" y="4.34375" />
+                  <PolyStepSegment x="4.233879" y="4.3432" />
+                  <PolyStepSegment x="4.233171" y="4.34255" />
+                  <PolyStepSegment x="4.232665" y="4.3418" />
+                  <PolyStepSegment x="4.232361" y="4.34095" />
+                  <PolyStepSegment x="4.23226" y="4.34" />
+                  <PolyStepSegment x="4.23226" y="4.36" />
+                  <PolyStepSegment x="4.232361" y="4.35905" />
+                  <PolyStepSegment x="4.232665" y="4.3582" />
+                  <PolyStepSegment x="4.233171" y="4.35745" />
+                  <PolyStepSegment x="4.233879" y="4.3568" />
+                  <PolyStepSegment x="4.23479" y="4.35625" />
+                  <PolyStepSegment x="4.235903" y="4.3558" />
+                  <PolyStepSegment x="4.237219" y="4.35545" />
+                  <PolyStepSegment x="4.238737" y="4.3552" />
+                  <PolyStepSegment x="4.240457" y="4.35505" />
+                  <PolyStepSegment x="4.24238" y="4.355" />
+                  <PolyStepSegment x="4.24238" y="4.345" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.253182" y="4.355" />
+                  <PolyStepSegment x="4.255307" y="4.355157" />
+                  <PolyStepSegment x="4.25753" y="4.355627" />
+                  <PolyStepSegment x="4.259854" y="4.35641" />
+                  <PolyStepSegment x="4.262278" y="4.357507" />
+                  <PolyStepSegment x="4.264801" y="4.358917" />
+                  <PolyStepSegment x="4.267424" y="4.360641" />
+                  <PolyStepSegment x="4.270147" y="4.362678" />
+                  <PolyStepSegment x="4.275891" y="4.367692" />
+                  <PolyStepSegment x="4.278913" y="4.370669" />
+                  <PolyStepSegment x="4.278913" y="4.329331" />
+                  <PolyStepSegment x="4.275891" y="4.332308" />
+                  <PolyStepSegment x="4.270147" y="4.337322" />
+                  <PolyStepSegment x="4.267424" y="4.339359" />
+                  <PolyStepSegment x="4.264801" y="4.341083" />
+                  <PolyStepSegment x="4.262278" y="4.342493" />
+                  <PolyStepSegment x="4.259854" y="4.34359" />
+                  <PolyStepSegment x="4.25753" y="4.344373" />
+                  <PolyStepSegment x="4.255307" y="4.344843" />
+                  <PolyStepSegment x="4.253182" y="4.345" />
+                  <PolyStepSegment x="4.253182" y="4.355" />
+                </Polygon>
+              </Contour>
+            </Features>
+          </Set>
+          <Set net="GPIO4">
+            <Features>
+              <Line startX="4.195" startY="4.25" endX="4.3" endY="4.25">
+                <LineDesc lineEnd="ROUND" lineWidth="0.01" lineProperty="SOLID" />
+              </Line>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.24238" y="4.245" />
+                  <PolyStepSegment x="4.240457" y="4.24495" />
+                  <PolyStepSegment x="4.238737" y="4.2448" />
+                  <PolyStepSegment x="4.237219" y="4.24455" />
+                  <PolyStepSegment x="4.235903" y="4.2442" />
+                  <PolyStepSegment x="4.23479" y="4.24375" />
+                  <PolyStepSegment x="4.233879" y="4.2432" />
+                  <PolyStepSegment x="4.233171" y="4.24255" />
+                  <PolyStepSegment x="4.232665" y="4.2418" />
+                  <PolyStepSegment x="4.232361" y="4.24095" />
+                  <PolyStepSegment x="4.23226" y="4.24" />
+                  <PolyStepSegment x="4.23226" y="4.26" />
+                  <PolyStepSegment x="4.232361" y="4.25905" />
+                  <PolyStepSegment x="4.232665" y="4.2582" />
+                  <PolyStepSegment x="4.233171" y="4.25745" />
+                  <PolyStepSegment x="4.233879" y="4.2568" />
+                  <PolyStepSegment x="4.23479" y="4.25625" />
+                  <PolyStepSegment x="4.235903" y="4.2558" />
+                  <PolyStepSegment x="4.237219" y="4.25545" />
+                  <PolyStepSegment x="4.238737" y="4.2552" />
+                  <PolyStepSegment x="4.240457" y="4.25505" />
+                  <PolyStepSegment x="4.24238" y="4.255" />
+                  <PolyStepSegment x="4.24238" y="4.245" />
+                </Polygon>
+              </Contour>
+            </Features>
+            <Features>
+              <Contour>
+                <Polygon>
+                  <PolyBegin x="4.253182" y="4.255" />
+                  <PolyStepSegment x="4.255307" y="4.255157" />
+                  <PolyStepSegment x="4.25753" y="4.255627" />
+                  <PolyStepSegment x="4.259854" y="4.25641" />
+                  <PolyStepSegment x="4.262278" y="4.257507" />
+                  <PolyStepSegment x="4.264801" y="4.258917" />
+                  <PolyStepSegment x="4.267424" y="4.260641" />
+                  <PolyStepSegment x="4.270147" y="4.262678" />
+                  <PolyStepSegment x="4.275891" y="4.267692" />
+                  <PolyStepSegment x="4.278913" y="4.270669" />
+                  <PolyStepSegment x="4.278913" y="4.229331" />
+                  <PolyStepSegment x="4.275891" y="4.232308" />
+                  <PolyStepSegment x="4.270147" y="4.237322" />
+                  <PolyStepSegment x="4.267424" y="4.239359" />
+                  <PolyStepSegment x="4.264801" y="4.241083" />
+                  <PolyStepSegment x="4.262278" y="4.242493" />
+                  <PolyStepSegment x="4.259854" y="4.24359" />
+                  <PolyStepSegment x="4.25753" y="4.244373" />
+                  <PolyStepSegment x="4.255307" y="4.244843" />
+                  <PolyStepSegment x="4.253182" y="4.245" />
+                  <PolyStepSegment x="4.253182" y="4.255" />
+                </Polygon>
+              </Contour>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Bottom Solder">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Bottom Solder" />
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Bottom Overlay">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Bottom Overlay" />
+          </Set>
+          <Set net="No Net">
+            <Features>
+              <UserSpecial>
+                <Line startX="4.228382" startY="4.570992" endX="4.208481" endY="4.570992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.208481" startY="4.570992" endX="4.219336" endY="4.556519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.219336" startY="4.556519" endX="4.213909" endY="4.556519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.213909" startY="4.556519" endX="4.21029" endY="4.55471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.21029" startY="4.55471" endX="4.208481" endY="4.5529">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.208481" startY="4.5529" endX="4.206672" endY="4.547473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.206672" startY="4.547473" endX="4.206672" endY="4.543855">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.206672" startY="4.543855" endX="4.208481" endY="4.538427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.208481" startY="4.538427" endX="4.2121" endY="4.534809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.2121" startY="4.534809" endX="4.217527" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.217527" startY="4.533" endX="4.222954" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.222954" startY="4.533" endX="4.228382" endY="4.534809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.228382" startY="4.534809" endX="4.230191" endY="4.536618">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.230191" startY="4.536618" endX="4.232" endY="4.540236">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.198169" startY="4.570992" endX="4.183696" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.169223" startY="4.570992" endX="4.183696" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.16072" startY="4.570992" endX="4.14082" endY="4.570992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.14082" startY="4.570992" endX="4.151674" endY="4.556519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.151674" startY="4.556519" endX="4.146247" endY="4.556519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.146247" startY="4.556519" endX="4.142629" endY="4.55471">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.142629" startY="4.55471" endX="4.14082" endY="4.5529">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.14082" startY="4.5529" endX="4.139011" endY="4.547473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.139011" startY="4.547473" endX="4.139011" endY="4.543855">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.139011" startY="4.543855" endX="4.14082" endY="4.538427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.14082" startY="4.538427" endX="4.144438" endY="4.534809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.144438" startY="4.534809" endX="4.149865" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.149865" startY="4.533" endX="4.155293" endY="4.533">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.155293" startY="4.533" endX="4.16072" endY="4.534809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.16072" startY="4.534809" endX="4.162529" endY="4.536618">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.162529" startY="4.536618" endX="4.164338" endY="4.540236">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.204863" startY="4.156946" endX="4.206672" endY="4.160565">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.206672" startY="4.160565" endX="4.21029" endY="4.164183">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.21029" startY="4.164183" endX="4.213909" endY="4.165992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.213909" startY="4.165992" endX="4.221145" endY="4.165992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.221145" startY="4.165992" endX="4.224764" endY="4.164183">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.224764" startY="4.164183" endX="4.228382" endY="4.160565">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.228382" startY="4.160565" endX="4.230191" endY="4.156946">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.230191" startY="4.156946" endX="4.232" endY="4.151519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.232" startY="4.151519" endX="4.232" endY="4.142473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.232" startY="4.142473" endX="4.230191" endY="4.137046">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.230191" startY="4.137046" endX="4.228382" endY="4.133427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.228382" startY="4.133427" endX="4.224764" endY="4.129809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.224764" startY="4.129809" endX="4.221145" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.221145" startY="4.128" endX="4.213909" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.213909" startY="4.128" endX="4.21029" endY="4.129809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.21029" startY="4.129809" endX="4.206672" endY="4.133427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.206672" startY="4.133427" endX="4.204863" endY="4.137046">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.204863" startY="4.137046" endX="4.204863" endY="4.142473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.213909" startY="4.142473" endX="4.204863" endY="4.142473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.196179" startY="4.165992" endX="4.196179" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.196179" startY="4.165992" endX="4.170851" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.170851" startY="4.165992" endX="4.170851" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.1603579999999996" startY="4.165992" endX="4.1603579999999996" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.1603579999999996" startY="4.165992" endX="4.147694" endY="4.165992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.147694" startY="4.165992" endX="4.142267" endY="4.164183">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.142267" startY="4.164183" endX="4.138649" endY="4.160565">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.138649" startY="4.160565" endX="4.136839" endY="4.156946">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.136839" startY="4.156946" endX="4.13503" endY="4.151519">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.13503" startY="4.151519" endX="4.13503" endY="4.142473">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.13503" startY="4.142473" endX="4.136839" endY="4.137046">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.136839" startY="4.137046" endX="4.138649" endY="4.133427">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.138649" startY="4.133427" endX="4.142267" endY="4.129809">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.142267" startY="4.129809" endX="4.147694" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.147694" startY="4.128" endX="4.1603579999999996" endY="4.128">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.008" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.223" startY="4.633657" endX="4.223" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.223" startY="4.633657" endX="4.208003" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.208003" startY="4.633657" endX="4.203004" endY="4.63199">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.203004" startY="4.63199" endX="4.201338" endY="4.630324">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.201338" startY="4.630324" endX="4.199672" endY="4.626992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.199672" startY="4.626992" endX="4.199672" endY="4.623659">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.199672" startY="4.623659" endX="4.201338" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.201338" startY="4.620326" endX="4.203004" endY="4.61866">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.203004" startY="4.61866" endX="4.208003" endY="4.616994">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.208003" startY="4.616994" endX="4.223" endY="4.616994">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.211336" startY="4.616994" endX="4.199672" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.171844" startY="4.621992" endX="4.171844" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.171844" startY="4.616994" endX="4.175177" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.175177" startY="4.620326" endX="4.178509" endY="4.621992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.178509" startY="4.621992" endX="4.183509" endY="4.621992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.183509" startY="4.621992" endX="4.186841" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.186841" startY="4.620326" endX="4.190174" endY="4.616994">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.190174" startY="4.616994" endX="4.19184" endY="4.611995">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.19184" startY="4.611995" endX="4.19184" endY="4.608662">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.19184" startY="4.608662" endX="4.190174" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.190174" startY="4.603663" endX="4.186841" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.186841" startY="4.60033" endX="4.183509" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.183509" startY="4.598664" endX="4.178509" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.178509" startY="4.598664" endX="4.175177" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.175177" startY="4.60033" endX="4.171844" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.144184" startY="4.616994" endX="4.14585" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.14585" startY="4.620326" endX="4.150849" endY="4.621992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.150849" startY="4.621992" endX="4.155848" endY="4.621992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.155848" startY="4.621992" endX="4.160847" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.160847" startY="4.620326" endX="4.162513" endY="4.616994">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.162513" startY="4.616994" endX="4.160847" endY="4.613661">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.160847" startY="4.613661" endX="4.157514" endY="4.611995">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.157514" startY="4.611995" endX="4.149182" endY="4.610328">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.149182" startY="4.610328" endX="4.14585" endY="4.608662">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.14585" startY="4.608662" endX="4.144184" endY="4.605329">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.144184" startY="4.605329" endX="4.144184" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.144184" startY="4.603663" endX="4.14585" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.14585" startY="4.60033" endX="4.150849" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.150849" startY="4.598664" endX="4.155848" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.155848" startY="4.598664" endX="4.160847" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.160847" startY="4.60033" endX="4.162513" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.136852" startY="4.621992" endX="4.136852" endY="4.587">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.136852" startY="4.616994" endX="4.133519" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.133519" startY="4.620326" endX="4.130187" endY="4.621992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.130187" startY="4.621992" endX="4.125188" endY="4.621992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.125188" startY="4.621992" endX="4.121855" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.121855" startY="4.620326" endX="4.118522" endY="4.616994">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.118522" startY="4.616994" endX="4.116856" endY="4.611995">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.116856" startY="4.611995" endX="4.116856" endY="4.608662">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.116856" startY="4.608662" endX="4.118522" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.118522" startY="4.603663" endX="4.121855" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.121855" startY="4.60033" endX="4.125188" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.125188" startY="4.598664" endX="4.130187" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.130187" startY="4.598664" endX="4.133519" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.133519" startY="4.60033" endX="4.136852" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.109358" startY="4.615327" endX="4.094361" endY="4.615327">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.094361" startY="4.615327" endX="4.089362" endY="4.616994">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.089362" startY="4.616994" endX="4.087696" endY="4.61866">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.087696" startY="4.61866" endX="4.086029" endY="4.621992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.086029" startY="4.621992" endX="4.086029" endY="4.626992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.086029" startY="4.626992" endX="4.087696" endY="4.630324">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.087696" startY="4.630324" endX="4.089362" endY="4.63199">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.089362" startY="4.63199" endX="4.094361" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.094361" startY="4.633657" endX="4.109358" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.109358" startY="4.633657" endX="4.109358" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.074865" startY="4.633657" endX="4.073199" endY="4.63199">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.073199" startY="4.63199" endX="4.071532" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.071532" startY="4.633657" endX="4.073199" endY="4.635323">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.073199" startY="4.635323" endX="4.074865" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.073199" startY="4.621992" endX="4.073199" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.065367" startY="4.613661" endX="4.035374" endY="4.613661">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.013378" startY="4.633657" endX="4.013378" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.025042" startY="4.633657" endX="4.001714" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.97422" startY="4.628658" endX="3.977553" endY="4.63199">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.977553" startY="4.63199" endX="3.982552" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.982552" startY="4.633657" endX="3.989217" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.989217" startY="4.633657" endX="3.994216" endY="4.63199">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.994216" startY="4.63199" endX="3.997548" endY="4.628658">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.997548" startY="4.628658" endX="3.997548" endY="4.625325">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.997548" startY="4.625325" endX="3.995882" endY="4.621992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.995882" startY="4.621992" endX="3.994216" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.994216" startY="4.620326" endX="3.990883" endY="4.61866">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.990883" startY="4.61866" endX="3.980885" endY="4.615327">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.980885" startY="4.615327" endX="3.977553" endY="4.613661">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.977553" startY="4.613661" endX="3.975886" endY="4.611995">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.975886" startY="4.611995" endX="3.97422" endY="4.608662">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.97422" startY="4.608662" endX="3.97422" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.97422" startY="4.603663" endX="3.977553" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.977553" startY="4.60033" endX="3.982552" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.982552" startY="4.598664" endX="3.989217" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.989217" startY="4.598664" endX="3.994216" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.994216" startY="4.60033" endX="3.997548" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.95639" startY="4.633657" endX="3.959723" endY="4.63199">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.959723" startY="4.63199" endX="3.963056" endY="4.628658">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.963056" startY="4.628658" endX="3.964722" endY="4.625325">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.964722" startY="4.625325" endX="3.966388" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.966388" startY="4.620326" endX="3.966388" endY="4.611995">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.966388" startY="4.611995" endX="3.964722" endY="4.606996">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.964722" startY="4.606996" endX="3.963056" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.963056" startY="4.603663" endX="3.959723" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.959723" startY="4.60033" endX="3.95639" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.95639" startY="4.598664" endX="3.949725" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.949725" startY="4.598664" endX="3.946393" endY="4.60033">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.946393" startY="4.60033" endX="3.94306" endY="4.603663">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.94306" startY="4.603663" endX="3.941394" endY="4.606996">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.941394" startY="4.606996" endX="3.939727" endY="4.611995">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.939727" startY="4.611995" endX="3.939727" endY="4.620326">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.939727" startY="4.620326" endX="3.941394" endY="4.625325">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.941394" startY="4.625325" endX="3.94306" endY="4.628658">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.94306" startY="4.628658" endX="3.946393" endY="4.63199">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.946393" startY="4.63199" endX="3.949725" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.949725" startY="4.633657" endX="3.95639" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.931562" startY="4.615327" endX="3.916566" endY="4.615327">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.916566" startY="4.615327" endX="3.911567" endY="4.616994">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.911567" startY="4.616994" endX="3.9099" endY="4.61866">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.9099" startY="4.61866" endX="3.908234" endY="4.621992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.908234" startY="4.621992" endX="3.908234" endY="4.626992">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.908234" startY="4.626992" endX="3.9099" endY="4.630324">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.9099" startY="4.630324" endX="3.911567" endY="4.63199">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.911567" startY="4.63199" endX="3.916566" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.916566" startY="4.633657" endX="3.931562" endY="4.633657">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.931562" startY="4.633657" endX="3.931562" endY="4.598664">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.007" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Bottom Paste">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Bottom Paste" />
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Keep-Out Layer">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Keep-Out Layer" />
+          </Set>
+          <Set net="No Net">
+            <Features>
+              <UserSpecial>
+                <Line startX="3.865" startY="4.05" endX="4.365" endY="4.05">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.865" startY="4.05" endX="3.865" endY="4.65">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.865" startY="4.65" endX="4.365" endY="4.65">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.365" startY="4.05" endX="4.365" endY="4.65">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Mechanical 1">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Mechanical 1" />
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Mechanical 13">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Mechanical 13" />
+          </Set>
+          <Set net="No Net">
+            <Features>
+              <UserSpecial>
+                <Line startX="3.879882" startY="4.251575" endX="3.879882" endY="4.448425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.990121" startY="4.271263" endX="4.068861" endY="4.271263">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.990118" startY="4.42874" endX="4.068858" endY="4.42874">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.879882" startY="4.448425" endX="3.990118" endY="4.448425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.879882" startY="4.251575" endX="3.990118" endY="4.251575">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.068858" startY="4.27126" endX="4.068858" endY="4.42874">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.990118" startY="4.42874" endX="3.990118" endY="4.448425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.990118" startY="4.251575" endX="3.990118" endY="4.27126">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.909055" startY="4.153425" endX="4.040945" endY="4.153425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.909055" startY="4.084528" endX="4.040945" endY="4.084528">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.909055" startY="4.084528" endX="3.909055" endY="4.153425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.040945" startY="4.084528" endX="4.040945" endY="4.153425">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Mechanical 15">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Mechanical 15" />
+          </Set>
+          <Set net="No Net">
+            <Features>
+              <UserSpecial>
+                <Line startX="3.875945" startY="4.213583" endX="3.875945" endY="4.486417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001969" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.875945" startY="4.486417" endX="4.072795" endY="4.486417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001969" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.875945" startY="4.213583" endX="4.072795" endY="4.213583">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001969" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.072795" startY="4.213583" endX="4.072795" endY="4.486417">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001969" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.915315" startY="4.35" endX="3.954685" endY="4.35">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.935" startY="4.330315" endX="3.935" endY="4.369685">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.975" startY="4.099291" endX="3.975" endY="4.138661">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.955315" startY="4.118976" endX="3.994685" endY="4.118976">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003937" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.866732" startY="4.176063" endX="4.083268" endY="4.176063">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001969" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.866732" startY="4.06189" endX="4.083268" endY="4.06189">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001969" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.866732" startY="4.06189" endX="3.866732" endY="4.176063">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001969" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.083268" startY="4.06189" endX="4.083268" endY="4.176063">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.001969" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Mechanical 16">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Mechanical 16" />
+          </Set>
+          <Set net="No Net">
+            <Features>
+              <Xform rotation="270" />
+              <Location x="3.915" y="4.56975" />
+              <RectCenter width="0.1255" height="0.07" />
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Drill Drawing (Top Layer - Bottom Layer)">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Drill Drawing (Top Layer - Bottom Layer)" />
+          </Set>
+          <Set net="No Net">
+            <Features>
+              <UserSpecial>
+                <Line startX="4.3" startY="4.133333" endX="4.316667" endY="4.166667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.166667" endX="4.316667" endY="4.166667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.166667" endX="4.3" endY="4.133333">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.3" startY="4.233333" endX="4.316667" endY="4.266667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.266667" endX="4.316667" endY="4.266667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.266667" endX="4.3" endY="4.233333">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.3" startY="4.333333" endX="4.316667" endY="4.366667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.366667" endX="4.316667" endY="4.366667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.366667" endX="4.3" endY="4.333333">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.3" startY="4.433333" endX="4.316667" endY="4.466667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.466667" endX="4.316667" endY="4.466667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.466667" endX="4.3" endY="4.433333">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.3" startY="4.533333" endX="4.316667" endY="4.566667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.566667" endX="4.316667" endY="4.566667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="4.283333" startY="4.566667" endX="4.3" endY="4.533333">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.918333" startY="4.233333" endX="3.951667" endY="4.233333">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.951667" startY="4.233333" endX="3.951667" endY="4.266667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.918333" startY="4.266667" endX="3.951667" endY="4.266667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.918333" startY="4.233333" endX="3.918333" endY="4.266667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.918333" startY="4.333333" endX="3.951667" endY="4.333333">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.951667" startY="4.333333" endX="3.951667" endY="4.366667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.918333" startY="4.366667" endX="3.951667" endY="4.366667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.918333" startY="4.333333" endX="3.918333" endY="4.366667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.918333" startY="4.433333" endX="3.951667" endY="4.433333">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.951667" startY="4.433333" endX="3.951667" endY="4.466667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.918333" startY="4.466667" endX="3.951667" endY="4.466667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+                <Line startX="3.918333" startY="4.433333" endX="3.918333" endY="4.466667">
+                  <LineDesc lineEnd="ROUND" lineWidth="0.003333" lineProperty="SOLID" />
+                </Line>
+              </UserSpecial>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="Drill Guide (Top Layer - Bottom Layer)">
+          <Set>
+            <ColorRef id="LAYER_COLOR_Drill Guide (Top Layer - Bottom Layer)" />
+          </Set>
+          <Set>
+            <Hole name="RPi_TSOP_U1-3 Hole Drill" diameter="0.045276" platingStatus="PLATED" plusTol="0" minusTol="0" x="3.935" y="4.45" />
+          </Set>
+          <Set>
+            <Hole name="RPi_TSOP_U1-2 Hole Drill" diameter="0.045276" platingStatus="PLATED" plusTol="0" minusTol="0" x="3.935" y="4.35" />
+          </Set>
+          <Set>
+            <Hole name="RPi_TSOP_U1-1 Hole Drill" diameter="0.045276" platingStatus="PLATED" plusTol="0" minusTol="0" x="3.935" y="4.25" />
+          </Set>
+          <Set>
+            <Hole name="RPi_TSOP_J1-1 Hole Drill" diameter="0.037" platingStatus="PLATED" plusTol="0" minusTol="0" x="4.3" y="4.55" />
+          </Set>
+          <Set>
+            <Hole name="RPi_TSOP_J1-2 Hole Drill" diameter="0.037" platingStatus="PLATED" plusTol="0" minusTol="0" x="4.3" y="4.45" />
+          </Set>
+          <Set>
+            <Hole name="RPi_TSOP_J1-3 Hole Drill" diameter="0.037" platingStatus="PLATED" plusTol="0" minusTol="0" x="4.3" y="4.35" />
+          </Set>
+          <Set>
+            <Hole name="RPi_TSOP_J1-4 Hole Drill" diameter="0.037" platingStatus="PLATED" plusTol="0" minusTol="0" x="4.3" y="4.25" />
+          </Set>
+          <Set>
+            <Hole name="RPi_TSOP_J1-5 Hole Drill" diameter="0.037" platingStatus="PLATED" plusTol="0" minusTol="0" x="4.3" y="4.15" />
+          </Set>
+        </LayerFeature>
+      </Step>
+    </CadData>
+  </Ecad>
+</IPC-2581>

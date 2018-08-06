@@ -1,0 +1,17 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Projects\RPi_TSOP\Project Outputs for RPi_TSOP\Pick Place for RPi_TSOP.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       22/06/18
+Time:       14:14
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment            Layer    Center-X(mil) Center-Y(mil) Rotation 
+LED1       PWR                TopLayer 50,000        520,000       270      
+J1         "RaspberryPI Conn" TopLayer 435,000       300,000       270      
+U1         TSOP38238          TopLayer 70,000        300,000       90       
+R1         Resistor           TopLayer 110,000       68,976        180      
